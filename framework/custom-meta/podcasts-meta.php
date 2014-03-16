@@ -35,8 +35,8 @@ function ep_display_podcasts_meta($post) {
     // Add the html fields
     $html = '
         <p>
-            <label for="youtube_url_field"><strong>URL de la vidéo :</strong></label><br><br>
-            <input size="40" id="youtube_url_field" type="text" name="youtube_url_field" value="' . get_post_meta($post->ID, 'youtube_url',true) . '" placeholder="http://www.youtube.com/watch?v=XXXXXXXXXXX" />
+            <label for="youtube_url_field"><strong>ID de la vidéo :</strong></label><br><br>
+            <input size="40" id="youtube_url_field" type="text" name="youtube_url_field" value="' . get_post_meta($post->ID, 'youtube_url',true) . '" placeholder="Ex: uIbifDku0Ek" />
         </p>
     ';
 

@@ -15,18 +15,15 @@ get_header(); ?>
             $loop = new WP_Query( array( 'post_type' => 'ep-podcasts', 'posts_per_page' => 10 ) );
 
             while ( $loop->have_posts() ) : $loop->the_post();
-
-                $video_url = get_post_meta( get_the_ID(), 'youtube_url',  true);
             ?>
 
             <div class="ep-playlist-col ep-cf">
                 <div class="playlist-thumb"><?php the_post_thumbnail(); ?></div>
-
-                <div class="playlist-infos">
-                    <div class="playlist-play">
-                        <a href="<?php if( !empty( $video_url ) ) { echo $video_url; } ?>" title="<?php the_title(); ?>" target="_blank"><div class="ep-play-btn"></div></a>
-                    </div>
-                    <h2 class="playlist-title ep-cf"><?php the_title(); ?></h2>
+                <div class="podcast-play">
+                    <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><div class="ep-play-btn"></div></a>
+                </div>
+                <div class="podcast-infos">
+                    <h2 class="podcast-title ep-cf"><?php the_title(); ?></h2>
                 </div>
 
             </div>

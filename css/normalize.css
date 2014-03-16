@@ -92,6 +92,10 @@ img {
     transition: opacity .2s ease-out;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 img:hover {
     opacity: .8;
     filter: alpha(opacity=80);

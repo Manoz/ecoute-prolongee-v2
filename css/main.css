@@ -814,6 +814,10 @@ body.archive .ep-main {
 /* 7. =Playlists
 -------------------------------------------------------------------- */
 
+.playlist-thumb img {
+    max-width: 316px;
+}
+
 .ep-playlist-col {
     position: relative;
     display: inline-block;
@@ -860,6 +864,8 @@ body.archive .ep-main {
     transition: all .2s ease-in;
 }
 
+.ep-playlist-col:hover > .podcast-play,
+.ep-playlist-col:hover > .podcast-infos,
 .ep-playlist-col:hover > .playlist-infos,
 .ep-playlist-col:hover > .playlist-btn-icons {
     opacity: 1;
@@ -881,6 +887,7 @@ body.archive .ep-main {
     cursor: pointer;
 }
 
+.podcast-play:hover,
 .playlist-play:hover {
     background-color: #222;
 }
@@ -900,7 +907,7 @@ body.archive .ep-main {
     content: "";
     position: absolute;
     top: 37%;
-    left: 37%;
+    left: 41%;
     margin: 0;
     border-style: solid;
     border-color: transparent transparent transparent #000;
@@ -909,6 +916,7 @@ body.archive .ep-main {
     transition: all .1s;
 }
 
+.podcast-play:hover .ep-play-btn:after,
 .playlist-play:hover .ep-play-btn:after {
     border-color: transparent transparent transparent #fff;
 }
@@ -933,6 +941,47 @@ body.archive .ep-main {
 
 /* 8. =Podcasts
 -------------------------------------------------------------------- */
+
+body.single-ep-podcasts .ep-main {margin-right: 0;}
+
+.podcast-play {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: rgba(255,255,255,.6);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.podcast-infos {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(255,255,255,.6);
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+h2.podcast-title {
+    margin: 0;
+    padding: 11px 0;
+    text-align: center;
+    font-family: 'bebas_neuebold';
+    font-size: 18px;
+    line-height: 1;
+    color: #000;
+}
 
 /* 9. =404
 -------------------------------------------------------------------- */
