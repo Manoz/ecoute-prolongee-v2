@@ -10,10 +10,11 @@ ecoute-prolongee-v2
 * [ ] Construire la partie ajax du site
 * [ ] Ajouter le player mp3
 * [ ] Ajouter des options au thème (couleurs, position du player, etc ...)
-* [ ] Remove readme.txt
-* [ ] Remove style.css tags list
-* [ ] Add a better copyright in theme files
-* [ ] Add a die; in theme files
+* [ ] Supprimer readme.txt
+* [x] Supprimer les tags dans style.css
+* [ ] Ajouter un meilleur copyright dans les fichiers du thème (au cas ou)
+* [ ] Empêcher d'accéder à certsins fichiers avec un `die`
+* [x] Construire la page 'single podcast' pour afficher les podcasts
 
 ### Issues 
 
