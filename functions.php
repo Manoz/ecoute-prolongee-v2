@@ -38,6 +38,8 @@ require_once locate_template('/inc/f-comments.php' );    // Custom comments temp
 require_once locate_template('/inc/g-clean.php' );       // Clean stuff for wp_head(), search, dashboard, ...
 require_once locate_template('/inc/h-posts-nav.php' );   // Display nav to next/prev pages
 require_once locate_template('/inc/i-navigation.php' );  // Custom walker for better wp_nav_menu
+require_once locate_template('/inc/j-ot-admin.php');     // Admin framework
+
 
     /**
      * Load our custom meta and custom post types files
