@@ -233,13 +233,13 @@ if ( ! class_exists( 'OT_Settings' ) ) {
             /* update active layout content */
             if ( isset( $_REQUEST['settings-updated'] ) && $_REQUEST['settings-updated'] == 'true' ) {
 
-              $layouts = get_option( 'option_tree_layouts' );
+              $layouts = get_option( ot_layouts_id() );
 
               /* has active layout */
               if ( isset( $layouts['active_layout'] ) ) {
                 $option_tree = get_option( $option['id'] );
                 $layouts[$layouts['active_layout']] = ot_encode( serialize( $option_tree ) );
-                update_option( 'option_tree_layouts', $layouts );
+                update_option( ot_layouts_id(), $layouts );
               }
 
             }
@@ -247,9 +247,9 @@ if ( ! class_exists( 'OT_Settings' ) ) {
             echo '<div class="wrap settings-wrap" id ="page-' . $page['id'] . '">';
 
               screen_icon( ( isset( $page['screen_icon'] ) ? $page['screen_icon'] : 'options-general' ) );
-              echo ' <img title="Meooow!" class="logo-hugo" src="'. get_template_directory_uri() .'/option-tree/assets/images/logo-hugo.png" alt="" /> ';
-              echo '<h2 class="hugo-page-title">' . $page['page_title'] . '</h2>';
-              echo '<h3 class="hugo-page-baseline">Welcome in Hugo\'s options :) </h3>';
+              echo ' <img title="Dum dum dum!" class="logo-ep" src="'. get_template_directory_uri() .'/option-tree/assets/images/logo-ep.png" alt="" /> ';
+              echo '<h2 class="ep-page-title">' . $page['page_title'] . '</h2>';
+              echo '<h3 class="ep-page-baseline">CAY LES OPTIONS IXED&Eacute;</h3>';
 
               echo ot_alert_message( $page );
 
@@ -260,9 +260,12 @@ if ( ! class_exists( 'OT_Settings' ) ) {
 
                 echo '<ul id="option-tree-header">';
 
-                  echo '<li id="option-tree-logo"><a title="Plugin page" href="http://wordpress.org/extend/plugins/option-tree/" target="_blank">OptionTree</a></li>';
+                  echo '<li id="option-tree-logo">' . apply_filters( 'ot_header_logo_link', '<a href="http://wordpress.org/extend/plugins/option-tree/" target="_blank">OptionTree</a>', $page['id'] ) . '</li>';
 
-                  echo '<li id="option-tree-version"><span>Version ' . OT_VERSION . '</span></li>';
+                  echo '<li id="option-tree-version"><span>' . apply_filters( 'ot_header_version_text', 'OptionTree ' . OT_VERSION, $page['id'] ) . '</span></li>';
+
+                  // Add additional theme specific links here.
+                  do_action( 'ot_header_list', $page['id'] );
 
                 echo '</ul>';
 
@@ -289,7 +292,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
                 echo '<div id="option-tree-sub-header">';
 
                 if ( $show_buttons )
-                  echo '<button class="option-tree-ui-button blue right">' . $page['button_text'] . '</button>';
+                  echo '<button class="option-tree-ui-button button button-primary right">' . $page['button_text'] . '</button>';
 
                 echo '</div>';
 
@@ -334,7 +337,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
 
                 echo '<div class="option-tree-ui-buttons">';
 
-                  echo '<button class="option-tree-ui-button blue right">' . $page['button_text'] . '</button>';
+                  echo '<button class="option-tree-ui-button button button-primary right">' . $page['button_text'] . '</button>';
 
                 echo '</div>';
 
@@ -352,7 +355,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
 
                   echo '<input type="hidden" name="action" value="reset" />';
 
-                  echo '<button type="submit" class="option-tree-ui-button red left reset-settings" title="' . __( 'Reset Options', 'option-tree' ) . '">' . __( 'Reset Options', 'option-tree' ) . '</button>';
+                  echo '<button type="submit" class="option-tree-ui-button button button-secondary left reset-settings" title="' . __( 'Reset Options', 'option-tree' ) . '">' . __( 'Reset Options', 'option-tree' ) . '</button>';
 
                 echo '</form>';
 
@@ -487,18 +490,23 @@ if ( ! class_exists( 'OT_Settings' ) ) {
         $field_value = ot_filter_std_value( $field_value, $std );
       }
 
+      // Allow the descriptions to be filtered before being displayed
+      $desc = apply_filters( 'ot_filter_description', ( isset( $desc ) ? $desc : '' ), $id );
+
       /* build the arguments array */
       $_args = array(
         'type'              => $type,
         'field_id'          => $id,
         'field_name'        => $get_option . '[' . $id . ']',
         'field_value'       => $field_value,
-        'field_desc'        => isset( $desc ) ? $desc : '',
+        'field_desc'        => $desc,
         'field_std'         => isset( $std ) ? $std : '',
         'field_rows'        => isset( $rows ) && ! empty( $rows ) ? $rows : 15,
         'field_post_type'   => isset( $post_type ) && ! empty( $post_type ) ? $post_type : 'post',
         'field_taxonomy'    => isset( $taxonomy ) && ! empty( $taxonomy ) ? $taxonomy : 'category',
         'field_min_max_step'=> isset( $min_max_step ) && ! empty( $min_max_step ) ? $min_max_step : '0,100,1',
+        'field_condition'   => isset( $condition ) && ! empty( $condition ) ? $condition : '',
+        'field_operator'    => isset( $operator ) && ! empty( $operator ) ? $operator : 'and',
         'field_class'       => isset( $class ) ? $class : '',
         'field_choices'     => isset( $choices ) && ! empty( $choices ) ? $choices : array(),
         'field_settings'    => isset( $settings ) && ! empty( $settings ) ? $settings : array(),
@@ -576,7 +584,7 @@ if ( ! class_exists( 'OT_Settings' ) ) {
             if ( isset( $setting['type'] ) && isset( $input[$setting['id']] ) ) {
 
               /* get the defaults */
-              $current_settings = get_option( 'option_tree_settings' );
+              $current_settings = get_option( ot_settings_id() );
               $current_options = get_option( $option['id'] );
 
               /* validate setting */
@@ -823,7 +831,35 @@ if ( ! class_exists( 'OT_Settings' ) ) {
 
       foreach ( (array) $wp_settings_fields[$page][$section] as $field ) {
 
-        echo '<div id="setting_' . $field['id'] . '" class="format-settings">';
+        $conditions = '';
+
+        if ( isset( $field['args']['condition'] ) && ! empty( $field['args']['condition'] ) ) {
+
+          $conditions = ' data-condition="' . $field['args']['condition'] . '"';
+          $conditions.= isset( $field['args']['operator'] ) && in_array( $field['args']['operator'], array( 'and', 'AND', 'or', 'OR' ) ) ? ' data-operator="' . $field['args']['operator'] . '"' : '';
+
+        }
+
+        // Build the setting CSS class
+        if ( isset( $field['args']['class'] ) && ! empty( $field['args']['class'] ) ) {
+
+          $classes = explode( ' ', $field['args']['class'] );
+
+          foreach( $classes as $key => $value ) {
+
+            $classes[$key] = $value . '-wrap';
+
+          }
+
+          $class = 'format-settings ' . implode( ' ', $classes );
+
+        } else {
+
+          $class = 'format-settings';
+
+        }
+
+        echo '<div id="setting_' . $field['id'] . '" class="' . $class . '"' . $conditions . '>';
 
           echo '<div class="format-setting-wrap">';
 
