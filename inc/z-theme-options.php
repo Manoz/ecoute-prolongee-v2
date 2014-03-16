@@ -297,11 +297,10 @@ Les erreurs sont bien affichées :)
         )
     );
 
-  /* settings are not the same update the DB */
-  if ( $saved_settings !== $custom_settings ) {
-    update_option( 'option_tree_settings', $custom_settings );
-  }
-
+    /* settings are not the same update the DB */
+    if ( $saved_settings !== $custom_settings ) {
+        update_option( ot_settings_id(), $custom_settings );
+    }
 }
 
 ?>
