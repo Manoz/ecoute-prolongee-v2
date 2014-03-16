@@ -16,12 +16,12 @@ function ep_create_playlists_post_type() {
         'add_new'            => 'Ajouter une playlist',
         'add_new_item'       => 'Ajouter une playlist',
         'new_item'           => 'Nouvelle playlist',
-        'edit_item'          => 'Éditer la playlist',
+        'edit_item'          => '&Eacute;diter la playlist',
         'view_item'          => 'Voir la playlist',
         'all_items'          => 'Toutes les playlists',
         'search_items'       => 'Rechercher une playlist',
         'parent_item_colon'  => 'Parent Playlist :',
-        'not_found'          => 'Pas de playlist trouvée',
+        'not_found'          => 'Pas de playlist trouv&eacute;e',
         'not_found_in_trash' => 'Pas de playlist dans la corbeille',
     );
 
@@ -53,7 +53,7 @@ register_taxonomy(
     'ep-playlists',
     array(
         'hierarchical'      => true,
-        'label'             => 'Catégories',
+        'label'             => 'Cat&eacute;gories',
         'query_var'         => true,
         'rewrite'           => true,
         'show_in_nav_menus' => false
@@ -71,7 +71,7 @@ function playlists_columns( $columns ) {
         'title'         => 'Titre',
         'author'        => 'Auteur',
         'thumbnail'     => 'Thumbnails',
-        'playlist-cat'  => 'Catégories',
+        'playlist-cat'  => 'Cat&eacute;gories',
         'genre'         => 'Genre',
         'date'          => 'Date',
     );
@@ -90,7 +90,7 @@ function manage_playlists_columns( $name ) {
                 }
                 echo implode( ', ', $post_terms );
             } else {
-                echo '<strong><em style="color: #E93838;">Pas de catégorie :(</em></strong>';
+                echo '<strong><em style="color: #E93838;">Pas de cat&eacute;gorie :(</em></strong>';
             }
             break;
         case 'thumbnail':
@@ -101,7 +101,7 @@ function manage_playlists_columns( $name ) {
             if ( !empty( $gender ) ) {
                 echo $gender;
             } else {
-                echo '<strong><em style="color: #E93838;">T\'as oublié le genre :(</em></strong>';
+                echo '<strong><em style="color: #E93838;">T\'as oubli&eacute; le genre :(</em></strong>';
             }
                 break;
     }

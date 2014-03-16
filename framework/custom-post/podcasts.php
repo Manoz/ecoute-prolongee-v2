@@ -16,13 +16,13 @@ function ep_create_podcasts_post_type() {
         'add_new'            => 'Ajouter un podcast',
         'add_new_item'       => 'Ajouter un podcast',
         'new_item'           => 'Nouveau podcast',
-        'edit_item'          => 'Éditer le podcast',
+        'edit_item'          => '&Eacute;diter le podcast',
         'view_item'          => 'Voir le podcast',
         'all_items'          => 'Tout les podcasts',
         'search_items'       => 'Rechercher un podcast',
         'parent_item_colon'  => 'Podcast parent :',
-        'not_found'          => 'Pas de podcast trouvé',
-        'not_found_in_trash' => 'Pas de podcast dans la corbeille. Fallait pas la vider pédé',
+        'not_found'          => 'Pas de podcast trouv&eacute;',
+        'not_found_in_trash' => 'Pas de podcast dans la corbeille. Fallait pas la vider p&eacute;d&eacute;',
     );
 
     $args = array(
@@ -54,7 +54,7 @@ register_taxonomy(
     'ep-podcasts',
     array(
         'hierarchical'      => true,
-        'label'             => 'Catégories',
+        'label'             => 'Cat&eacute;gories',
         'query_var'         => true,
         'rewrite'           => true,
         'show_in_nav_menus' => false
@@ -73,7 +73,7 @@ function podcasts_columns( $columns ) {
         'title'         => 'Titre',
         'author'        => 'Auteur',
         'thumbnail'     => 'Thumbnails',
-        'podcast-cat'   => 'Catégories',
+        'podcast-cat'   => 'Cat&eacute;gories',
         'date'          => 'Date',
     );
     return $columns;
@@ -91,7 +91,7 @@ function manage_podcasts_columns( $name ) {
                 }
                 echo implode( ', ', $post_terms );
             } else {
-                echo '<strong><em style="color: #E93838;">Pas de catégorie :(</em></strong>';
+                echo '<strong><em style="color: #E93838;">Pas de cat&eacute;gorie :(</em></strong>';
             }
             break;
         case 'thumbnail':

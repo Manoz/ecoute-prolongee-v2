@@ -11,11 +11,11 @@ get_header(); ?>
             <div class="ep-inner ep-cf">
                 <div class="ep-col-home">
                     <div class="ep-about-home">
-                        <h1>À propos d'Écoute Prolongée</h1>
+                        <h1>&Agrave; propos d'&Eacute;coute Prolong&eacute;e</h1>
                         <p>
                             Bonjour petit bolide,
                             <br><br>
-                            Bienvenue sur le blog d’Ecoute-Prolongée. Tu nous as peut-être déjà croisés sur <a target="_blank" href="http://tumblr.ecoute-prolongee.com/">Tumblr</a>, <a target="_blank" href="http://www.ecoute-prolongee.com/soundcloud.com/ecouteprolongee">Soundcloud</a>, sur les chemins boueux d’un camping de festival ou encore dans l’obscurité d’un club.<br>
+                            Bienvenue sur le blog d’&Eacute;coute-Prolong&eacute;e. Tu nous as peut-être déjà croisés sur <a target="_blank" href="http://tumblr.ecoute-prolongee.com/">Tumblr</a>, <a target="_blank" href="http://www.ecoute-prolongee.com/soundcloud.com/ecouteprolongee">Soundcloud</a>, sur les chemins boueux d’un camping de festival ou encore dans l’obscurité d’un club.<br>
                             Ici, tu trouveras tout ce dont tu as besoin pour organiser ta petite veille musicale : des <strong>podcasts</strong> pleins de découvertes auditives, des <strong>reports</strong> d'évènements musicaux qui nous font vibrer, des <strong>playlists</strong> aux genres aussi divers que variés, un <strong>agenda</strong> pour des nuits de folie et même des <strong>concours</strong> pour y aller aux frais de la princesse.
                         </p><br>
                         <p>

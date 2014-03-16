@@ -5,7 +5,7 @@ Template Name: Blog
 get_header(); ?>
 
     <header class="ep-sub-header">
-        <h2>Podcasts</h2>
+        <h2>Blog</h2>
     </header>
 
     <div class="ep-inner">
