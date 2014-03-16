@@ -2,6 +2,8 @@
 /*
 Template Name: Homepage
 */
+if ( function_exists( 'get_option_tree') ) { $theme_options = get_option( 'option_tree' ); }
+
 get_header(); ?>
 
             <div class="ep-slider">
@@ -12,25 +14,15 @@ get_header(); ?>
                 <div class="ep-col-home">
                     <div class="ep-about-home">
                         <h1>&Agrave; propos d'&Eacute;coute Prolong&eacute;e</h1>
-                        <p>
-                            Bonjour petit bolide,
-                            <br><br>
-                            Bienvenue sur le blog d’&Eacute;coute-Prolong&eacute;e. Tu nous as peut-être déjà croisés sur <a target="_blank" href="http://tumblr.ecoute-prolongee.com/">Tumblr</a>, <a target="_blank" href="http://www.ecoute-prolongee.com/soundcloud.com/ecouteprolongee">Soundcloud</a>, sur les chemins boueux d’un camping de festival ou encore dans l’obscurité d’un club.<br>
-                            Ici, tu trouveras tout ce dont tu as besoin pour organiser ta petite veille musicale : des <strong>podcasts</strong> pleins de découvertes auditives, des <strong>reports</strong> d'évènements musicaux qui nous font vibrer, des <strong>playlists</strong> aux genres aussi divers que variés, un <strong>agenda</strong> pour des nuits de folie et même des <strong>concours</strong> pour y aller aux frais de la princesse.
-                        </p><br>
-                        <p>
-                            On espère que tu prendras autant de plaisir à lire ces pages que nous à les alimenter.
-                            <br><em>Bisous.</em>
-                        </p>
-
+                        <?php echo $theme_options['home_textarea']; ?>
                     </div>
                 </div>
 
                 <div class="ep-col-home-last">
                     <div class="ep-support-home ep-cf">
                         <h1>On soutient</h1>
-                        <a href="#">
-                            <img src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/unnamed.jpg">
+                        <a title="<?php echo $theme_options['support_title']; ?>" target="_blank" href="<?php echo $theme_options['support_url']; ?>">
+                            <img src="<?php echo $theme_options['support_upload']; ?>">
                         </a>
                     </div>
                     <div class="ep-agenda-home">

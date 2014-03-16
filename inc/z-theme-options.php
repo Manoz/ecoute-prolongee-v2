@@ -11,7 +11,7 @@ function custom_theme_options() {
     /**
     * Get a copy of the saved settings array.
     */
-    $saved_settings = get_option( 'option_tree_settings', array() );
+    $saved_settings = get_option( ot_settings_id(), array() );
 
   /**
    * Custom settings array that will eventually be
@@ -19,235 +19,190 @@ function custom_theme_options() {
    */
     $custom_settings = array(
         'contextual_help' => array(
-            'content'       => array(
+            'content'           => array(
                 array(
                     'id'        => 'general_help',
                     'title'     => 'Documentation',
                     'content'   => '<p><a href="http://www.mwanoz.fr/">http://www.mwanoz.fr/</a></p></p>'
                 )
             ),
-            //'sidebar'       => '<p><a href="http://www.mwanoz.fr/">http://www.mwanoz.fr/</a></p>',
         ),
-        'sections'        => array(
+        'sections'          => array(
             array(
-                'id'          => 'general',
-                'title'       => 'General settings'
+                'id'        => 'general',
+                'title'     => 'G&eacute;n&eacute;ral'
             ),
             array(
-                'id'          => 'colors',
-                'title'       => 'Colors options'
+                'id'        => 'homepage',
+                'title'     => 'Page d\'accueil'
             ),
             array(
-                'id'          => 'template',
-                'title'       => 'Template options'
+                'id'        => 'social',
+                'title'     => 'Réseaux sociaux'
             ),
             array(
-                'id'          => 'social',
-                'title'       => 'Social networks'
-          )
+                'id'        => 'css',
+                'title'     => 'Custom CSS'
+            )
         ), // End sections
 
         // General settings
-        'settings'        => array(
+        'settings'            => array(
             array(
-                'label'       => 'Favicon Upload',
                 'id'          => 'favicon_upload',
-                'type'        => 'upload',
-                'desc'        => 'Upload a 16*16px .png or .gif image.',
+                'label'       => 'Uploader une favicon',
+                'desc'        => 'Upload une image de 16*16px, .png ou .gif',
                 'std'         => '',
+                'type'        => 'upload',
+                'section'     => 'general',
                 'rows'        => '',
                 'post_type'   => '',
                 'taxonomy'    => '',
+                'min_max_step'=> '',
                 'class'       => '',
-                'section'     => 'general'
+                'condition'   => '',
+                'operator'    => 'and'
             ),
             array(
-                'label'         => 'Your custom CSS',
-                'id'            => 'custom_css',
-                'type'          => 'textarea-simple',
-                'desc'          => 'If you want to customize Hugo, paste your css code here.',
-                'std'           => '',
-                'post_type'     => '',
-                'taxonomy'      => '',
-                'class'         => '',
-                'section'       => 'general'
+                'id'           => 'custom_css',
+                'label'        => 'Custom CSS',
+                'desc'         => '<p>Permet d\'ajouter du css perso. <strong>Cette option est désactivée pour le moment.</strong></p> <p>Permet également d\'utiliser des variables et ça, ... c\'est plutôt fat.</p>',
+                'std'          => '
+/*
+Code démo pour voir la gueule que ça a.
+Les erreurs sont bien affichées :)
+*/
+#custom {
+    {{demo_background}}
+}
+
+.lolz {
+    color: #ececec;
+    text-transform: uppercase;
+}
+',
+                'type'         => 'css',
+                'section'      => 'css',
+                'rows'         => '20',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
             ),
             array(
-                'label'         => 'Disable Google Analytics?',
-                'id'            => 'add_analytics',
-                'type'          => 'checkbox',
-                'desc'          => 'Check if you want to disable the Google Analytics code.',
-                'choices'       => array(
-                    array(
-                        'label'     => 'Yes',
-                        'value'     => 'Yes'
-                    )
-                ),
-                'std'           => '',
-                'rows'          => '',
-                'post_type'     => '',
-                'taxonomy'      => '',
-                'class'         => '',
-                'section'       => 'general'
-            ),
-            array(
-                'label'         => 'Google Analytics ID',
                 'id'            => 'analytics_id',
-                'type'          => 'text',
-                'desc'          => 'Paste your Google Analytics ID. Ex: UA-12345678-9',
+                'label'         => 'Google Analytics ID',
+                'desc'          => '<p>Mettre ici le code google analytics. Ex: UA-12345678-9</p>',
                 'std'           => 'UA-XXXXXXXX-X',
+                'type'          => 'text',
+                'section'       => 'general',
                 'rows'          => '',
                 'post_type'     => '',
                 'taxonomy'      => '',
+                'min_max_step'  => '',
                 'class'         => '',
-                'section'       => 'general'
+                'condition'     => '',
+                'operator'      => 'and'
             ),
-            // Color options
+            // Homepage settings
             array(
-                'label'       => 'Theme Colors',
-                'id'          => 'theme_colors',
-                'type'        => 'select',
-                'desc'        => 'Select your global theme colors.',
-                'choices'     => array(
-                    array(
-                        'label'       => 'Default',
-                        'value'       => 'main'
-                    ),
-                    array(
-                        'label'       => 'Red',
-                        'value'       => 'red'
-                    ),
-                    array(
-                        'label'       => 'Green',
-                        'value'       => 'green'
-                    ),
-                    array(
-                        'label'       => 'Pink',
-                        'value'       => 'pink'
-                    ),
-                    array(
-                        'label'       => 'Orange',
-                        'value'       => 'orange'
-                    )
-                ),
-                'std'         => 'main',
-                'rows'        => '',
-                'post_type'   => '',
-                'taxonomy'    => '',
-                'class'       => '',
-                'section'     => 'colors'
-            ),
-            array(
-                'label'         => 'Custom Theme Color',
-                'id'            => 'custom_theme_color',
-                'type'          => 'colorpicker',
-                'desc'          => 'If you dont like my colour schemes, you can choose your own color here.',
+                'id'            => 'help_textarea',
+                'label'         => 'Lorem ipsum ta mère',
+                'desc'          => '<p>Cet onglet sert &agrave; personnaliser tout ce qui se trouve sur la page d\'accueil. Tu peux y ajouter le contenu du bloc <strong>&Agrave; Propos</strong> et tu peux également changer la photo du bloc <strong>On soutient</strong>. Tout ce qui touche au calendrier se gère automatiquement. Tu n\'as rien besoin de faire dessus.</p>',
                 'std'           => '',
+                'type'          => 'textblock',
+                'section'       => 'homepage',
                 'rows'          => '',
                 'post_type'     => '',
                 'taxonomy'      => '',
+                'min_max_step'  => '',
                 'class'         => '',
-                'section'       => 'colors'
+                'condition'     => '',
+                'operator'      => 'and'
             ),
-            // Template settings
             array(
-                'label'       => 'Homepage layout.',
-                'id'          => 'homepage_layout',
-                'type'        => 'radio-image',
-                'desc'        => 'Choose the layout for the homepage. You will find the posts and pages layouts where you usually write.',
-                'choices'     => array(
-                    array(
-                        'value'     => 'left-sidebar',
-                        'label'     => 'Left sidebar',
-                        'src'       => OT_URL . '/assets/images/layout/2cl.png'
-                    ),
-                    array(
-                        'value'     => 'full-width',
-                        'label'     => 'Full width',
-                        'src'       => OT_URL . '/assets/images/layout/1col.png'
-                    ),
-                    array(
-                        'value'     => 'right-sidebar',
-                        'label'     => 'Right sidebar',
-                        'src'       => OT_URL . '/assets/images/layout/2cr.png'
-                    )
-                ),
-                'std'         => 'left-sidebar',
+                'id'            => 'home_textarea',
+                'label'         => 'Bloc &Agrave; propos',
+                'desc'          => '',
+                'std'           => '',
+                'type'          => 'textarea',
+                'section'       => 'homepage',
+                'rows'          => '15',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'min_max_step'  => '',
+                'class'         => '',
+                'condition'     => '',
+                'operator'      => 'and'
+            ),
+            array(
+                'id'          => 'support_upload',
+                'label'       => 'Image "On soutient"',
+                'desc'        => '<p>Permet de changer l\'image <code>On soutient</code> de la page d\'accueil. <br>Taille recommandée : 420*195.</p>',
+                'std'         => '',
+                'type'        => 'upload',
+                'section'     => 'homepage',
                 'rows'        => '',
                 'post_type'   => '',
                 'taxonomy'    => '',
+                'min_max_step'=> '',
                 'class'       => '',
-                'section'     => 'template'
+                'condition'   => '',
+                'operator'    => 'and'
             ),
             array(
-                'label'         => 'Show top bar?',
-                'id'            => 'show_top_bar',
-                'type'          => 'checkbox',
-                'desc'          => 'Check if you want to show the top bar.',
-                'choices'       => array(
-                    array(
-                        'label'     => 'Yes',
-                        'value'     => 'Yes'
-                    )
-                ),
-                'std'           => 'Yes',
-                'section'       => 'template'
+                'id'            => 'support_url',
+                'label'         => 'Cible du lien',
+                'desc'          => '<p>Mettre ici l\'url de la cible de l\'image <code>On Soutient</code>.</p>',
+                'std'           => '',
+                'type'          => 'text',
+                'section'       => 'homepage',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'min_max_step'  => '',
+                'class'         => '',
+                'condition'     => '',
+                'operator'      => 'and'
             ),
             array(
-                'label'         => 'Show dot title?',
-                'id'            => 'title_dot',
-                'type'          => 'checkbox',
-                'desc'          => 'Show the dot after the site title?',
-                'choices'       => array(
-                    array(
-                        'label'     => 'Yes',
-                        'value'     => 'Yes'
-                    )
-                ),
-                'std'           => 'Yes',
-                'section'       => 'template'
-            ),
-            array(
-                'label'         => 'Show top bar search?',
-                'id'            => 'top_bar_search',
-                'type'          => 'checkbox',
-                'desc'          => 'Check if you want to show the search in the top bar.',
-                'choices'       => array(
-                    array(
-                        'label'     => 'Yes',
-                        'value'     => 'Yes'
-                    )
-                ),
-                'std'           => 'Yes',
-                'section'       => 'template'
-            ),
-            array(
-                'label'         => 'Show top bar social networks?',
-                'id'            => 'top_bar_social',
-                'type'          => 'checkbox',
-                'desc'          => 'Check if you want to show the social networks widget in the top bar.',
-                'choices'       => array(
-                    array(
-                        'label'     => 'Yes',
-                        'value'     => 'Yes'
-                    )
-                ),
-                'std'           => 'Yes',
-                'section'       => 'template'
+                'id'            => 'support_title',
+                'label'         => 'Titre du lien',
+                'desc'          => '<p>Mettre ici le titre qui s\'affichera quand on passera la souris sur l\'image.</p>',
+                'std'           => '',
+                'type'          => 'text',
+                'section'       => 'homepage',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'min_max_step'  => '',
+                'class'         => '',
+                'condition'     => '',
+                'operator'      => 'and'
             ),
             // Social networks
             array(
-                'label'         => 'About Social Networks',
                 'id'            => 'about_social_networks',
+                'label'         => '&Agrave; propos des réseaux sociaux',
+                'desc'          => '<p>Mettre ici l\'url complète du r&eacute;seau social. Ces liens sont utilis&eacute; un peu partout dans le th&egrave;me. <br><span style="color: #bc4c40">Pour le moment, belek, cette section est désactiv&eacute;e.</span></p>',
+                'std'           => '',
                 'type'          => 'textblock-titled',
-                'desc'          => '<p>Paste the <strong>full URL</strong> of the social network you want to display. <br>If there is no url, the icon will not appear.</p> <p>The icons will appear in the <em>top bar</em> and in the <em>footer widget</em>. In the <em>Template options</em> tab, you can choose whether to display the icons in the top bar section of the site.</p>',
-                'section'       => 'social'
+                'section'       => 'social',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'min_max_step'  => '',
+                'class'         => '',
+                'condition'     => '',
+                'operator'      => 'and'
             ),
             array(
                 'label'         => 'Facebook',
                 'id'            => 'social_fb',
                 'type'          => 'text',
-                'desc'          => 'Enter your full URL',
+                'desc'          => 'URL compl&egrave;te',
                 'std'           => '',
                 'rows'          => '',
                 'post_type'     => '',
@@ -259,7 +214,7 @@ function custom_theme_options() {
                 'label'         => 'Twitter',
                 'id'            => 'social_tw',
                 'type'          => 'text',
-                'desc'          => 'Enter your full URL',
+                'desc'          => 'URL compl&egrave;te',
                 'std'           => '',
                 'rows'          => '',
                 'post_type'     => '',
@@ -271,7 +226,55 @@ function custom_theme_options() {
                 'label'         => 'Google+',
                 'id'            => 'social_goog',
                 'type'          => 'text',
-                'desc'          => 'Enter your full URL',
+                'desc'          => 'URL compl&egrave;te',
+                'std'           => '',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'class'         => '',
+                'section'       => 'social'
+            ),
+            array(
+                'label'         => 'Soundcloud',
+                'id'            => 'social_soundcloud',
+                'type'          => 'text',
+                'desc'          => 'URL compl&egrave;te',
+                'std'           => '',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'class'         => '',
+                'section'       => 'social'
+            ),
+            array(
+                'label'         => 'Spotify',
+                'id'            => 'social_spotify',
+                'type'          => 'text',
+                'desc'          => 'URL compl&egrave;te',
+                'std'           => '',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'class'         => '',
+                'section'       => 'social'
+            ),
+            array(
+                'label'         => 'Grooveshark',
+                'id'            => 'social_grooveshark',
+                'type'          => 'text',
+                'desc'          => 'URL compl&egrave;te',
+                'std'           => '',
+                'rows'          => '',
+                'post_type'     => '',
+                'taxonomy'      => '',
+                'class'         => '',
+                'section'       => 'social'
+            ),
+            array(
+                'label'         => 'Instagram',
+                'id'            => 'social_instagram',
+                'type'          => 'text',
+                'desc'          => 'URL compl&egrave;te',
                 'std'           => '',
                 'rows'          => '',
                 'post_type'     => '',
@@ -283,7 +286,7 @@ function custom_theme_options() {
                 'label'         => 'YouTube',
                 'id'            => 'social_yt',
                 'type'          => 'text',
-                'desc'          => 'Enter your full URL',
+                'desc'          => 'URL compl&egrave;te',
                 'std'           => '',
                 'rows'          => '',
                 'post_type'     => '',

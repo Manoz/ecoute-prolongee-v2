@@ -12,11 +12,14 @@
 <!--[if gt IE 9]><html <?php language_attributes(); ?> class="is_ie10"><![endif]-->
 <!--[if !IE]><!--> <html <?php language_attributes(); ?>><!--<![endif]-->
 <head>
+<?php if ( function_exists( 'get_option_tree') ) { $theme_options = get_option( 'option_tree' ); } ?>
+
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
 
     <title><?php wp_title( '|', true, 'right' ); ?></title>
 
+    <link rel="shortcut icon" href="<?php if (!empty($theme_options['favicon_upload'])){echo $theme_options['favicon_upload'];} else {echo get_template_directory_uri() . '/images/favicon-1.png';}?>" />
     <link rel="profile" href="http://gmpg.org/xfn/11" >
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" >
 

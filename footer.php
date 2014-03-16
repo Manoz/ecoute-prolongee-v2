@@ -25,7 +25,25 @@
     </footer>
 </div> <!-- end .ep-container -->
 
-<?php wp_footer(); ?>
+<?php
+wp_footer();
+
+if( function_exists( 'get_option_tree') ) {
+    $theme_options = get_option('option_tree');
+    $id = get_option_tree('analytics_id',$theme_options);
+
+    echo '
+<script>
+    (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');
+
+    ga(\'create\', \''.$id.'\', \'ecoute-prolongee.com\');
+    ga(\'send\', \'pageview\');
+</script>
+    ';
+} ?>
 
 </body>
 </html>
