@@ -1,5 +1,5 @@
-Theme Name: Start Here
-Theme URI: https://github.com/Manoz/start-here
+Theme Name: Écoute Prolongée
+Theme URI: https://www.ecoute-prolongee.com/
 Version: 1.0.0
 Requires at least: WP 3.6
 Tested up to: WP 3.8
@@ -9,8 +9,8 @@ Author URI: http://k-legrand.fr/
 License: MIT License
 License URI: http://opensource.org/licenses/MIT
 -------------------------------------------------------
-'Start Here' WordPress Theme, Copyright 2014 k-legrand.fr
-'Start Here' is distributed under the terms of the MIT
+'Écoute Prolongée' WordPress Theme, Copyright 2014 k-legrand.fr
+'Écoute Prolongée' is distributed under the terms of the MIT
 -------------------------------------------------------
 
 ========= Credits =========
@@ -22,7 +22,7 @@ Start Here uses:
 
 ========= Installation =========
 
-You can download the file, unzip it and move the unzipped contents to the "wp-content/themes" folder of your WordPress installation. You will then be able to activate the theme.
+Soon...
 
 ========= Instructions =========
 
@@ -30,7 +30,7 @@ Soon...
 
 ========= Support =========
 
-For questions, comments or bug reports, please go to the Github project page or send me an email (manoz@outlook.com).
+Soon...
 
 == Changelog ==
 
