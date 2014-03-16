@@ -41,7 +41,7 @@
     14. =Footer
     15. =Widgets
     16. =WP Required stuff
-    16. =Helpers
+    17. =Helpers
 */
 
 /* 1. =Structure
@@ -280,6 +280,28 @@ abbr[title], acronym[title] {
     cursor: help;
 }
 
+/* Boutons
+------------------------------------- */
+
+.btn {
+    display: inline-block;
+    position: relative;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    padding: 0;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    outline: 0;
+    color: #b4b4b4;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.ep-sndc:hover {color: #f50;}
+.ep-sptf:hover {color: #82bf00;}
+
 /* 2. =Header
 -------------------------------------------------------------------- */
 
@@ -393,6 +415,7 @@ abbr[title], acronym[title] {
 -------------------------------------- */
 .ep-col-home p {
     margin: 0 20px;
+    padding: .75em 0;
     text-align: justify;
     line-height: 1.2;
 }
