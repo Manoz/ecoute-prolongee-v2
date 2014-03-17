@@ -16,8 +16,12 @@ if( $post_type == 'ep-podcasts' ) { ?>
 
 <?php } ?>
 
+<?php
+    global $post;
+    $cat = get_the_category( $post->ID );
+?>
     <div class="ep-inner">
-        <div class="ep-main ep-cf" role="main">
+        <div class="<?php if($cat[0]->category_nicename = 'interviews') {echo 'ep-main-int';} ?> ep-main ep-cf" role="main">
 
         <?php
 
@@ -42,7 +46,11 @@ if( $post_type == 'ep-podcasts' ) { ?>
 
         </div>
 
-        <?php if( $post_type == 'post' ) { get_sidebar(); } ?>
+        <?php
+            if( is_a( $post, 'WP_Post' ) && $cat[0]->category_nicename != 'interviews' ) {
+                get_sidebar();
+            }
+        ?>
 
     </div>
 

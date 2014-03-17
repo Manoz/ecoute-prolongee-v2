@@ -1039,6 +1039,10 @@ body.archive .ep-post-metas {
 /* 12. =Category
 -------------------------------------------------------------------- */
 
+.ep-main-int.ep-main {
+    margin-right: 0;
+}
+
 .ep-sub-header {
     width: 100%;
     margin-bottom: 40px;
