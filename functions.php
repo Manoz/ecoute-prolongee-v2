@@ -58,6 +58,9 @@ require_once locate_template('/inc/j-ot-admin.php');     // Admin framework
     require_once locate_template( '/framework/custom-post/agenda.php' );
     require_once locate_template( '/framework/custom-meta/agenda-meta.php' );
 
+    // Interviews
+    require_once locate_template( '/framework/custom-post/interviews.php' );
+
 
 
 //require_once( get_template_directory_uri() . '/framework/custom-post/slider.php');

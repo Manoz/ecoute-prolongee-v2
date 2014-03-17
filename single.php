@@ -5,8 +5,9 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-$post_type = get_post_type( $post->ID );
 get_header();
+global $post;
+$post_type = get_post_type( $post->ID );
 
 if( $post_type == 'ep-podcasts' ) { ?>
 
@@ -16,12 +17,8 @@ if( $post_type == 'ep-podcasts' ) { ?>
 
 <?php } ?>
 
-<?php
-    global $post;
-    $cat = get_the_category( $post->ID );
-?>
     <div class="ep-inner">
-        <div class="<?php if($cat[0]->category_nicename = 'interviews') {echo 'ep-main-int';} ?> ep-main ep-cf" role="main">
+        <div class="<?php if( $post_type == 'interviews' || $post_type == 'ep-podcasts' ) { echo 'ep-main-int '; } ?>ep-main ep-cf" role="main">
 
         <?php
 
@@ -31,7 +28,11 @@ if( $post_type == 'ep-podcasts' ) { ?>
 
                     get_template_part( 'templates/content', 'podcast' );
 
-                } else {
+                } elseif( $post_type == 'interviews' ) {
+
+                    get_template_part( 'templates/content', 'interview' );
+
+                } else{
 
                     get_template_part( 'templates/content', 'single' );
                 }
@@ -47,7 +48,7 @@ if( $post_type == 'ep-podcasts' ) { ?>
         </div>
 
         <?php
-            if( is_a( $post, 'WP_Post' ) && $cat[0]->category_nicename != 'interviews' ) {
+            if( is_a( $post, 'WP_Post' ) && $post_type != 'interviews' && $post_type != 'ep-podcasts' ) {
                 get_sidebar();
             }
         ?>

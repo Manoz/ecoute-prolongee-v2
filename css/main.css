@@ -356,9 +356,9 @@ abbr[title], acronym[title] {
     transform: translateY(2px);
 }
 
-.ep-nav .active a {
+/*.ep-nav .active a {
     color: #9aaddd;
-}
+}*/
 
 .dropdown-menu {
     margin: 0;
