@@ -10,29 +10,29 @@ get_header();
 
 if ( have_posts() ) : ?>
 
-    <header class="ep-archive-header">
-        <h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'ecoute' ), single_tag_title( '', false ) ); ?></h1>
-        <?php // Term description
-            $term_desc = term_description();
-            if ( !empty( $term_desc ) ) :
-                printf( '<div class="taxonomy-desc">%s</div>', $term_desc );
-            endif;
-        ?>
+    <header class="ep-sub-header">
+        <h2 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'ecoute' ), single_tag_title( '', false ) ); ?></h2>
     </header>
 
-<?php
-    while (have_posts()) : the_post();
+    <div class="ep-inner">
+        <div class="ep-main-int ep-main ep-cf" role="main">
 
-        get_template_part('loop', get_post_format());
+        <?php
+            while (have_posts()) : the_post();
 
-    endwhile;
+                get_template_part('loop', get_post_format());
 
-    //ep_page_nav(); // Prev/next buttons
+            endwhile;
 
-else:
+            ep_page_nav();
+
+        ?>
+        </div>
+    </div>
+
+<?php else:
 
     get_template_part('404');
 
 endif;
-get_sidebar();
 get_footer();
