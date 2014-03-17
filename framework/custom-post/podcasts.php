@@ -18,7 +18,7 @@ function ep_create_podcasts_post_type() {
         'new_item'           => 'Nouveau podcast',
         'edit_item'          => '&Eacute;diter le podcast',
         'view_item'          => 'Voir le podcast',
-        'all_items'          => 'Tout les podcasts',
+        'all_items'          => 'Tous les podcasts',
         'search_items'       => 'Rechercher un podcast',
         'parent_item_colon'  => 'Podcast parent :',
         'not_found'          => 'Pas de podcast trouv&eacute;',

@@ -18,7 +18,7 @@ function ep_create_agenda_post_type() {
         'new_item'           => 'Nouvel event',
         'edit_item'          => '&Eacute;diter l\'event',
         'view_item'          => 'Voir l\'event',
-        'all_items'          => 'Tout les events',
+        'all_items'          => 'Tous les events',
         'search_items'       => 'Rechercher un event',
         'parent_item_colon'  => 'Agenda parent :',
         'not_found'          => 'Pas d\'event trouv&eacute;',
