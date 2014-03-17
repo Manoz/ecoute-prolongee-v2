@@ -47,12 +47,16 @@ require_once locate_template('/inc/j-ot-admin.php');     // Admin framework
     */
 
     // Playlists
-    require_once locate_template('/framework/custom-post/playlists.php' );
-    require_once locate_template('/framework/custom-meta/playlists-meta.php' );
+    require_once locate_template( '/framework/custom-post/playlists.php' );
+    require_once locate_template( '/framework/custom-meta/playlists-meta.php' );
 
     // Podcasts
-    require_once locate_template('/framework/custom-post/podcasts.php' );
-    require_once locate_template('/framework/custom-meta/podcasts-meta.php' );
+    require_once locate_template( '/framework/custom-post/podcasts.php' );
+    require_once locate_template( '/framework/custom-meta/podcasts-meta.php' );
+
+    // Agenda
+    require_once locate_template( '/framework/custom-post/agenda.php' );
+    require_once locate_template( '/framework/custom-meta/agenda-meta.php' );
 
 
 

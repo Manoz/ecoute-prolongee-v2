@@ -88,6 +88,28 @@ function custom_theme_options() {
                 'operator'     => 'and'
             ),
             array(
+                'id'           => 'gestion_events',
+                'label'        => 'D&eacute;sactiver l\'Agenda ?',
+                'desc'         => '<p>D&eacute;sactiver les events sur la home ? Si il n\'y a aucun event dans les agendas, le module sur la home s\'affiche quand même.</p> <p>En attendant que je trouve une solution propre pour empêcher ça, tu peux les désactiver manuellement ici.</p>',
+                'std'          => '',
+                'type'         => 'checkbox',
+                'section'      => 'general',
+                'rows'         => '',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and',
+                'choices'      => array(
+                    array(
+                        'value'     => 'yes',
+                        'label'     => 'Oui ! Oui ! Oui !',
+                        'src'       => ''
+                    )
+                )
+            ),
+            array(
                 'id'           => 'custom_css',
                 'label'        => 'Custom CSS',
                 'desc'         => '<p>Permet d\'ajouter du css perso. <strong>Cette option est désactivée pour le moment.</strong></p> <p>Permet également d\'utiliser des variables et ça, ... c\'est plutôt fat.</p>',
