@@ -1,12 +1,6 @@
 <?php
 /**
- * 'Start Here' functions and definitions
- *
- * If you want to add more functions, don't add them in this file.
- * Keep it clean.
- *
- * Also, be careful with your functions names.
- * I usually use this prefix: ep_my_function
+ * Our theme functions and definitions
  *
  * @package Écoute Prolongée
  * @since   1.0.0
@@ -29,16 +23,16 @@ define( 'CUSTOM_POST',   FRAMEWORK_DIR. '/custom-post/' );
  * Load our base theme config files
  * @since 1.0.0
 */
-require_once locate_template('/inc/a-init.php' );        // Lang, nav and some theme support
-require_once locate_template('/inc/b-theme-setup.php' ); // Theme config (excerpt, content width,...)
-require_once locate_template('/inc/c-scripts.php' );     // Scripts and stylesheets
-require_once locate_template('/inc/d-tweaks.php' );      // Tweaks and utils
-require_once locate_template('/inc/e-widgets.php' );     // Sidebars and widgets
-require_once locate_template('/inc/f-comments.php' );    // Custom comments template
-require_once locate_template('/inc/g-clean.php' );       // Clean stuff for wp_head(), search, dashboard, ...
-require_once locate_template('/inc/h-posts-nav.php' );   // Display nav to next/prev pages
-require_once locate_template('/inc/i-navigation.php' );  // Custom walker for better wp_nav_menu
-require_once locate_template('/inc/j-ot-admin.php');     // Admin framework
+require_once locate_template( '/inc/a-init.php' );        // Lang, nav and some theme support
+require_once locate_template( '/inc/b-theme-setup.php' ); // Theme config (excerpt, content width,...)
+require_once locate_template( '/inc/c-scripts.php' );     // Scripts and stylesheets
+require_once locate_template( '/inc/d-tweaks.php' );      // Tweaks and utils
+require_once locate_template( '/inc/e-widgets.php' );     // Sidebars and widgets
+require_once locate_template( '/inc/f-comments.php' );    // Custom comments template
+require_once locate_template( '/inc/g-clean.php' );       // Clean stuff for wp_head(), search, dashboard, ...
+require_once locate_template( '/inc/h-posts-nav.php' );   // Display nav to next/prev pages
+require_once locate_template( '/inc/i-navigation.php' );  // Custom walker for better wp_nav_menu
+require_once locate_template( '/inc/j-ot-admin.php' );    // Admin framework
 
 
     /**
