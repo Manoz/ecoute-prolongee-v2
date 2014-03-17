@@ -7,7 +7,7 @@ ecoute-prolongee-v2
 
 * [ ] Ajouter le slider (choix du slider ? full css3 ? Flex-slider ? Nivo slider ?)
 * [ ] Ajouter les custom post type et post meta du slider
-* [ ] Construire la partie ajax du site
+* [x] Construire la partie ajax du site
 * [ ] Ajouter le player mp3
 * [x] Ajouter des options au thème (couleurs, position du player, etc ...)
 * [ ] Changer l'accès du readme.txt sur la version en prod dans .htaccess
