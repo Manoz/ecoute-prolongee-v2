@@ -32,15 +32,15 @@
     </div>
 
     <footer class="ep-post-footer">
-        <ul class="footer-metas">
-            <li class="tag-links"><?php
-                $tags_list = get_the_tag_list( '', __( ' ', 'ecoute' ) );
-                if ( $tags_list ) :
-                    printf( __( '<span>Tags :</span> %1$s', 'ecoute' ), $tags_list );
-                else :
-                    _e( 'No tags', 'ecoute' );
-                endif; ?>
-            </li>
-        </ul>
+        <div class="tag-links">
+        <?php
+            $terms = get_the_term_list( $post->ID, 'int-tag', '<span>', ' &#45; </span><span>', '</span>' );
+            if ( $terms ) :
+                echo '<strong>Tags :</strong> ' . $terms;
+            else :
+                echo 'Il n\'y a pas de tags :&#40;';
+            endif;
+        ?>
+        </div>
     </footer>
 </article>

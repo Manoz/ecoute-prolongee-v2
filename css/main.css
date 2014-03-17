@@ -652,7 +652,6 @@ input[type="submit"]:hover {
 
 .footer-metas span {font-weight: 600;}
 .tag-links a:before {content: "#";}
-.tag-links a:after {content: " - ";}
 .tag-links a:last-of-type:after {display: none;}
 
 /* 5. =Comments
