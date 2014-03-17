@@ -10,8 +10,7 @@ get_header(); ?>
     <header class="ep-sub-header">
         <h2>
         <?php
-            if (is_category( 'interviews' )) { echo 'Interviews'; }
-            elseif (is_category( 'concours' )) { echo 'Concours'; }
+            if (is_category( 'concours' )) { echo 'Concours'; }
             elseif (is_category( 'playlists' )) { echo 'Playlists'; }
             elseif (is_category( 'podcasts' )) { echo 'Podcasts'; }
         ?>
