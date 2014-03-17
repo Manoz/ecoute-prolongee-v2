@@ -18,6 +18,7 @@ function ep_setup() {
     add_theme_support( 'automatic-feed-links' );
     add_theme_support( 'post-thumbnails' );
     add_theme_support( 'nice-search' );
+    add_editor_style( '/css/editor-style.css' );
 
     // Add post formats
     add_theme_support( 'post-formats', array(

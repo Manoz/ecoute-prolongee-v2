@@ -37,4 +37,5 @@ get_header(); ?>
                 get_template_part('404');
 
             endif;
+
 get_footer();

@@ -6,7 +6,6 @@
  * @since   1.0.0
  */
 ?>
-
     </div> <!-- end .ep-content -->
 
     <footer class="ep-footer">
@@ -25,8 +24,7 @@
     </footer>
 </div> <!-- end .ep-container -->
 
-<?php
-wp_footer();
+<?php wp_footer();
 
 if( function_exists( 'get_option_tree') ) {
     $theme_options = get_option('option_tree');
