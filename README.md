@@ -1,0 +1,1 @@
+Le fichier `datas.xml` sert à l'outil **Importer** de WordPress. Je ne sais pas si les datas qu'il contient sont bonnes (notamment si il a bien exporté mes custom post type) mais dans le doute je vous l'ai mis quand même.
