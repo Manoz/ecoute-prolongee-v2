@@ -38,7 +38,8 @@ function ep_create_interviews_post_type() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'menu_icon'          => THEME_URI . '/framework/admin/images/icon-interviews.png',
+        'menu_icon'          => 'dashicons-exerpt-view',
+        //'menu_icon'          => THEME_URI . '/framework/admin/images/icon-interviews.png',
         'supports'           => array(
             'title',
             'editor',

@@ -38,7 +38,8 @@ function ep_create_podcasts_post_type() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'menu_icon'          => THEME_URI . '/framework/admin/images/icon-podcasts.png',
+        'menu_icon'          => 'dashicons-video-alt',
+        //'menu_icon'          => THEME_URI . '/framework/admin/images/icon-podcasts.png',
         'supports'           => array(
             'title',
             'editor',

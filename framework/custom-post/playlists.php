@@ -38,7 +38,8 @@ function ep_create_playlists_post_type() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'menu_icon'          => THEME_URI . '/framework/admin/images/icon-playlists.png',
+        'menu_icon'          => 'dashicons-format-audio',
+        //'menu_icon'          => THEME_URI . '/framework/admin/images/icon-playlists.png',
         'supports'           => array(
             'title',
             'thumbnail',

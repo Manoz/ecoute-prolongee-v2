@@ -38,7 +38,8 @@ function ep_create_agenda_post_type() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'menu_icon'          => THEME_URI . '/framework/admin/images/icon-agenda.png',
+        'menu_icon'          => 'dashicons-calendar',
+        //'menu_icon'          => THEME_URI . '/framework/admin/images/icon-agenda.png',
         'supports'           => array(
             'title',
             'agenda_metabox'
