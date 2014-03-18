@@ -6,6 +6,13 @@ ecoute-prolongee-v2
 ### Todo
 
 * [ ] Ajouter le player mp3
+* [ ] Build les shortcodes/metabox/post type pour le player mp3
+* [ ] Ajouter la partie responsive/mobile prout
+* [ ] Refaire un check complet des fichiers
+* [ ] Minify les .js (c'est quand même cool)
+* [ ] Vérif complète de la css
+* [ ] Minify de la css
+* [ ] Mise en ligne ?
 * [x] Ajouter le slider > Plugin Meta Slider (badass, léger, parfait)
 * [x] Ajouter les custom post type et post meta du slider > **No need**
 * [x] Construire la partie ajax du site
@@ -19,3 +26,13 @@ ecoute-prolongee-v2
 ### Issues 
 
 Pas de problèmes pour le moment
+
+### À propos du player mp3
+
+Pour le fonctionnement du player. Il faudrait faire en sorte qu'il joue n'importe quel morceau qui est présent sur le site. Que l'on mette un embed Soundcloud ou un embed Grooveshark.
+
+Il faudrait dans l'idéal qu'il fonctionne avec **Grooveshark**, **Soundcloud** et peut-être **Spotify** si possible avec l'api.
+
+Quand on clique sur le menu "Playlist" sur le site, les playlists s'affichent. Si on hover une playlist, il y a un petit bouton "play". Lorsque le player est activé, ce bouton play devra lire la musique dans le player. Si on désactive le player, ce bouton play renverra sur la musique sur Soundcloud ou autre.
+
+En gros il faudrait que le player ait toutes les fonctionnalités présentes actuellement sur le site (ÉcouteProlongée)[http://www.ecoute-prolongee.com].
