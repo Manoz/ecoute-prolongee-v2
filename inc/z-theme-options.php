@@ -5,7 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 /* Initialize the custom Theme Options.
  * Bbuild the custom settings & update OptionTree.
 */

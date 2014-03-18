@@ -5,7 +5,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-?>
+if ( !defined( 'ABSPATH' )) die('Love the blank page?'); ?>
+
     </div> <!-- end .ep-content -->
 
     <footer class="ep-footer">

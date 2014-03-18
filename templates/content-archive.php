@@ -5,7 +5,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-?>
+if ( !defined( 'ABSPATH' )) die('Love the blank page?'); ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class('ep-cf'); ?> >
     <header class="ep-post-header">
     <?php if ( has_post_thumbnail() ) { ?>

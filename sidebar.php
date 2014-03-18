@@ -5,7 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-?>
+if ( !defined( 'ABSPATH' )) die('Love the blank page?'); ?>
 <div class="ep-sidebar" role="complementary">
     <div class="ep-widgets-wrap">
     <?php

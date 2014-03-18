@@ -409,7 +409,12 @@ abbr[title], acronym[title] {
 -------------------------------------- */
 .ep-slider {
     margin-bottom: 40px;
+    border-bottom: 7px solid #cbd1d1;
 }
+
+.flex-direction-nav a {background: url(../images/direction-nav.png) no-repeat 100% 0 !important;}
+.flex-direction-nav .flex-next {background-position: 0 0 !important;}
+ul.slides li img:hover {opacity: 1;}
 
 /* 3.2. !About
 -------------------------------------- */

@@ -2,6 +2,7 @@
 /*
 Template Name: Blog
 */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 get_header(); ?>
 
     <header class="ep-sub-header">

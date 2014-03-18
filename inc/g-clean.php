@@ -11,6 +11,7 @@
  * Remove WP version
  * Remove nav links
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 
 function ep_clean_head() {
     // Originally from http://wpengineer.com/1438/wordpress-header/

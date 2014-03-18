@@ -2,12 +2,13 @@
 /*
 Template Name: Homepage
 */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 if ( function_exists( 'get_option_tree') ) { $theme_options = get_option( 'option_tree' ); }
 
 get_header(); ?>
 
             <div class="ep-slider">
-                <img style="border-bottom: 7px solid #cbd1d1;" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/lancement.jpg" >
+                <?php echo do_shortcode("[metaslider id=715]"); ?>
             </div>
 
             <div class="ep-inner ep-cf">

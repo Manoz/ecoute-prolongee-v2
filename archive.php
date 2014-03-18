@@ -5,6 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 global $post;
 $post_type = get_post_type( $post->ID );
 get_header(); ?>

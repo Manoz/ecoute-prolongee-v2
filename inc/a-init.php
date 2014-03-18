@@ -5,6 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 
 add_action( 'after_setup_theme', 'ep_setup' );
 function ep_setup() {

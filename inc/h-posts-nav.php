@@ -6,6 +6,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
+
 if ( ! function_exists( 'ep_content_nav' ) ):
 function ep_content_nav( $args = '' ) {
     $defaults = array(

@@ -5,6 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 
 add_action( 'init', 'ep_create_podcasts_post_type', 0 );
 function ep_create_podcasts_post_type() {

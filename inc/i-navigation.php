@@ -9,6 +9,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
+
 class EP_Nav_Walker extends Walker_Nav_Menu {
     function check_current($classes) {
         return preg_match('/(current[-_])|active|dropdown/', $classes);

@@ -6,6 +6,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
+
 if ( ! function_exists( 'ep_comment' ) ) :
 function ep_comment( $comment, $args, $depth ) {
     $GLOBALS['comment'] = $comment;

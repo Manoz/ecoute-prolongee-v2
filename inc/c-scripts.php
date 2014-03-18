@@ -5,6 +5,8 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
+
 function ep_styles() {
     // Protocol (http or https) for webfonts
     $prot = is_ssl() ? 'https' : 'http';

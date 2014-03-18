@@ -5,6 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 ?><!DOCTYPE HTML>
 <!--[if lt IE 8 ]><html <?php language_attributes(); ?> class="is_ie7 lt_ie8 lt_ie9 lt_ie10"><![endif]-->
 <!--[if IE 8 ]><html <?php language_attributes(); ?> class="is_ie8 lt_ie9 lt_ie10"><![endif]-->
@@ -15,7 +16,7 @@
 <?php if ( function_exists( 'get_option_tree') ) { $theme_options = get_option( 'option_tree' ); } ?>
 
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title><?php wp_title( '|', true, 'right' ); ?></title>
 

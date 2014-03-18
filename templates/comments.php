@@ -5,7 +5,7 @@
  * @package Écoute Prolongée
  * @since   1.0.0
  */
-
+if ( !defined( 'ABSPATH' )) die('Love the blank page?');
 if ( post_password_required() ) return;
 ?>
 <div id="comments" class="ep-comments-area">
