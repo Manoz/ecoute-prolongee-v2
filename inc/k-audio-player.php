@@ -6,7 +6,6 @@
  * @since   1.0.0
  */
 if ( !defined( 'ABSPATH' )) die('Love the blank page?');
-
 /*
  * All the audio player options are prefixed with pl_ (means 'PLayer')
  * Ex: pl_wrap_pos for the wrapper position.
