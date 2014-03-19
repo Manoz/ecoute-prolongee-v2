@@ -56,7 +56,6 @@ function ep_display_agenda_meta( $post ) {
             <input size="40" id="ep_url_field" type="text" name="ep_url_field" value="' . get_post_meta($post->ID, 'ep_url_value',true) . '" placeholder="URL de l\'event." />
         </p>
     ';
-
     // Print the stuff
     echo $html;
 }

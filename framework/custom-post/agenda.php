@@ -73,7 +73,8 @@ function agenda_columns( $columns ) {
         'author'        => 'Auteur',
         'ep-date'       => 'Date de l\'event',
         'ep-lieux'      => 'Lieux',
-        'ep-prix'       => 'Prix'
+        'ep-prix'       => 'Prix',
+        'ep-soldout'    => 'Sold Out ?'
     );
     return $columns;
 }
@@ -101,7 +102,7 @@ function manage_agenda_columns( $name ) {
             } else {
                 echo '<strong><em style="color: #E93838;">T\'as oubli&eacute; quelque chose :(</em></strong>';
             }
-                break;
+            break;
         case 'ep-lieux':
             $lieux = get_post_meta( get_the_ID(), 'ep_lieux_value',  true);
             if ( !empty( $lieux ) ) {
@@ -109,7 +110,7 @@ function manage_agenda_columns( $name ) {
             } else {
                 echo '<strong><em style="color: #E93838;">Pas de lieux ? :(</em></strong>';
             }
-                break;
+            break;
         case 'ep-prix':
             $prix = get_post_meta( get_the_ID(), 'ep_prix_value',  true);
             if ( !empty( $prix ) ) {
@@ -117,6 +118,14 @@ function manage_agenda_columns( $name ) {
             } else {
                 echo '<strong><em style="color: #E93838;">Pas de prix ? :(</em></strong>';
             }
-                break;
+            break;
+        case 'ep-soldout':
+            $soldout = get_post_meta( get_the_ID(), 'event_soldout',  true);
+            if( $soldout == 'on' ) {
+                echo '<strong><em style="color: #E93838;">Sold Out</em></strong>';
+            } elseif( $soldout == 'off' || empty( $soldout ) ) {
+                echo '<strong><em style="color: #44B834;">Places dispo</em></strong>';
+            }
+            break;
     }
 }

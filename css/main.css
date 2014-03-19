@@ -33,15 +33,16 @@
      6. =Pages
      7. =Playlists
      8. =Podcasts
-     9. =404
-    10. =Search
-    11. =Archives
-    12. =Category
-    13. =Tags
-    14. =Footer
-    15. =Widgets
-    16. =WP Required stuff
-    17. =Helpers
+     9. =Agenda
+    10. =404
+    11. =Search
+    12. =Archives
+    13. =Category
+    14. =Tags
+    15. =Footer
+    16. =Widgets
+    17. =WP Required stuff
+    18. =Helpers
 */
 
 /* 1. =Structure
@@ -1010,13 +1011,133 @@ h2.podcast-title {
     color: #000;
 }
 
-/* 9. =404
+/* 9. =Agenda
 -------------------------------------------------------------------- */
 
-/* 10. =Search
+.ep-event-list section {
+    display: block;
+    position: relative;
+    min-height: 120px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+}
+
+.ep-event-list .event-date {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    text-align: center;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.event-date strong {
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    left: 0;
+    font-family: 'bebas_neuebold';
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.event-date .month {
+    z-index: 2;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #bc4c40;
+}
+
+.event-details {
+    z-index: 1;
+    position: relative;
+    zoom: 1;
+    margin-left: 61px;
+    padding: 16px 20px 20px 20px;
+    min-height: 120px;
+    background-color: #f7f7f7;
+}
+
+.event-details h2 {
+    display: block;
+    margin: 0;
+    font-family: 'bebas_neue_regularregular';
+    font-weight: normal;
+    font-size: 24px;
+    color: #e74c3c;
+}
+
+.event-details span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.event-details span strong {
+    color: #333;
+}
+
+.event-details .event-buttons {
+    width: 100%;
+    height: 30px;
+    margin-top: 17px;
+}
+
+.event-buttons .sold-out {
+    display: inline-block;
+    float: left;
+    height: 27px;
+    margin-right: 10px;
+    padding: 0 10px;
+    border-radius: 3px;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+    background-color: #bc4c40;
+    cursor: not-allowed;
+}
+
+.event-buttons a {
+    display: inline-block;
+    float: left;
+    height: 27px;
+    margin-right: 10px;
+    padding: 0 10px;
+    border-radius: 3px;
+    line-height: 27px;
+    color: #44AD55;
+    box-shadow: 0 0 0 1px #44AD55;
+    -webkit-transition: color 200ms linear,background-color 300ms cubic-bezier(0.23,1,0.32,1);
+    -moz-transition: color 200ms linear,background-color 300ms cubic-bezier(0.23,1,0.32,1);
+    -ms-transition: color 200ms linear,background-color 300ms cubic-bezier(0.23,1,0.32,1);
+    -o-transition: color 200ms linear,background-color 300ms cubic-bezier(0.23,1,0.32,1);
+    box-transition: color 200ms linear,background-color 300ms cubic-bezier(0.23,1,0.32,1);
+}
+
+.event-buttons a:hover {
+    color: #fff;
+    background-color: #44AD55;
+}
+
+/* 10. =404
 -------------------------------------------------------------------- */
 
-/* 11. =Archives
+/* 11. =Search
+-------------------------------------------------------------------- */
+
+/* 12. =Archives
 -------------------------------------------------------------------- */
 
 body.archive .ep-thumbnail {
@@ -1040,7 +1161,7 @@ body.archive .ep-post-metas {
     right: 0;
 }
 
-/* 12. =Category
+/* 13. =Category
 -------------------------------------------------------------------- */
 
 .ep-main-int.ep-main {
@@ -1061,7 +1182,7 @@ body.archive .ep-post-metas {
     color: #423d3d;
 }
 
-/* 14. =Footer
+/* 15. =Footer
 -------------------------------------------------------------------- */
 
 .ep-footer {
@@ -1092,7 +1213,7 @@ body.archive .ep-post-metas {
     margin-bottom: 5px;
 }
 
-/* 15. =Widgets
+/* 16. =Widgets
 -------------------------------------------------------------------- */
 
 .ep-widget {
@@ -1198,7 +1319,7 @@ body.archive .ep-post-metas {
     list-style: none;
 }
 
-/* 16. =WP Required stuff
+/* 17. =WP Required stuff
 -------------------------------------------------------------------- */
 
 .sticky {
@@ -1247,7 +1368,7 @@ body.archive .ep-post-metas {
     color: #888888;
 }
 
-/* 17. =Helpers
+/* 18. =Helpers
 -------------------------------------------------------------------- */
 
 .ep-cf:before,
