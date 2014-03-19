@@ -32,7 +32,7 @@ $under_copy = get_option_tree( 'footer_copyright_left',  $theme_options );
 </div> <!-- end .ep-container -->
 
 <div id="fap">
-    <a href="https://soundcloud.com/ecouteprolongee/sets/roulez-jeunesse-festival"></a>
+    <a href="<?php echo $theme_options['pl_default_track']; ?>"></a>
 </div>
 
 <?php wp_footer();

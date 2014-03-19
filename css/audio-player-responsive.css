@@ -150,6 +150,7 @@ and (min-width : 1024px) {
     #fap-volume-sign { margin-top: 32px !important;}
     #fap-playlist-toggle { margin-top: 32px !important;}
     #fap-playlist-shuffle { margin-top: 32px !important;}
+    #fap-clear-toggle { margin-top: 32px !important;}
 
 
 }

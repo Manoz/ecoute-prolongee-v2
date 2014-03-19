@@ -256,6 +256,21 @@ function custom_theme_options() {
                 'operator'     => 'and'
             ),
             array(
+                'id'           => 'pl_default_track',
+                'label'        => 'Playlist par défaut',
+                'desc'         => '<p>Tu peux mettre ici l\'URL de la track ou de la playlist qui se lancera par défaut quand on visite le site.</p>',
+                'std'          => '',
+                'type'         => 'text',
+                'section'      => 'pl_settings',
+                'rows'         => '',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
+            ),
+            array(
                 'id'           => 'pl_opened',
                 'label'        => 'Ouvert par défaut ?',
                 'desc'         => 'Si le player est ouvert ou fermé au chargement du site.',
