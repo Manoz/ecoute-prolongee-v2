@@ -331,6 +331,21 @@ function custom_theme_options() {
                 'operator'     => 'and'
             ),
             array(
+                'id'           => 'pl_volume',
+                'label'        => 'Volume par défaut ?',
+                'desc'         => 'Le volume par défaut du player.',
+                'std'          => '',
+                'type'         => 'numeric-slider',
+                'section'      => 'pl_settings',
+                'rows'         => '',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '0,1,0.1',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
+            ),
+            array(
                 'id'           => 'pl_wrap_color',
                 'label'        => 'Couleur du wrapper',
                 'desc'         => 'La couleur de fond du conteneur.',

@@ -45,5 +45,9 @@ $pl_keyboard  = ( $theme_options['pl_keyboard']  == 'on' ) ? 'true' : 'false';
             activeTrackColor: '<?php echo "$theme_options[pl_active_track_color]"; ?>'
         });
 
+        jQuery('#fap').bind('onFapReady', function(evt, trackData) {
+            jQuery.fullwidthAudioPlayer.volume(<?php echo $theme_options['pl_volume']; ?>);
+        });
+
     });
 </script>
