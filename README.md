@@ -25,7 +25,9 @@ ecoute-prolongee-v2
 
 ### Issues 
 
-Pas de problèmes pour le moment
+**Slider :**
+
+Problème avec le plugin du slider actuel. Si on est sur une autre page que la home et qu'on revient sur la home, parfois, le slider ne se charge pas.
 
 ### À propos du player mp3
 
