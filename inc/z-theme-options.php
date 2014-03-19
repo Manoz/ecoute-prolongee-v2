@@ -42,8 +42,8 @@ function custom_theme_options() {
                 'title'     => 'Réseaux sociaux'
             ),
             array(
-                'id'        => 'css',
-                'title'     => 'Custom CSS'
+                'id'        => 'divers',
+                'title'     => 'Divers'
             )
         ), // End sections
 
@@ -71,7 +71,8 @@ function custom_theme_options() {
             ),
             */
 
-            // General settings
+            // G E N E R A L   S E T T I N G S
+            //--------------------------------------------------------
             array(
                 'id'           => 'favicon_upload',
                 'label'        => 'Uploader une favicon',
@@ -110,21 +111,6 @@ function custom_theme_options() {
                 )
             ),
             array(
-                'id'           => 'custom_css',
-                'label'        => 'Custom CSS',
-                'desc'         => '<p>Permet d\'ajouter du css perso. <strong>Cette option est désactivée pour le moment.</strong></p> <p>Permet également d\'utiliser des variables et ça, ... c\'est plutôt fat.</p>',
-                'std'          => '',
-                'type'         => 'css',
-                'section'      => 'css',
-                'rows'         => '20',
-                'post_type'    => '',
-                'taxonomy'     => '',
-                'min_max_step' => '',
-                'class'        => '',
-                'condition'    => '',
-                'operator'     => 'and'
-            ),
-            array(
                 'id'           => 'analytics_id',
                 'label'        => 'Google Analytics ID',
                 'desc'         => '<p>Mettre ici le code google analytics. Ex: UA-12345678-9</p>',
@@ -139,8 +125,39 @@ function custom_theme_options() {
                 'condition'    => '',
                 'operator'     => 'and'
             ),
+            array(
+                'id'           => 'footer_copyright',
+                'label'        => 'Copyright',
+                'desc'         => '<p>Tu peux changer la mention copyright du site ( Copyright 2014 - Écoute Prolongée).</p>',
+                'std'          => '&copy; Copyright 2014 - Écoute Prolongée',
+                'type'         => 'text',
+                'section'      => 'general',
+                'rows'         => '',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
+            ),
+            array(
+                'id'           => 'footer_copyright_left',
+                'label'        => 'Texte sous le copyright',
+                'desc'         => '<p>Tu peux changer le petit bout de texte qui sera placé sous le Copyright du site.</p>',
+                'std'          => 'Les morceaux que nous publions ne nous appartiennent pas et sont la propriété de leurs auteurs respectifs. Nous les diffusons uniquement dans un but promotionnel.',
+                'type'         => 'text',
+                'section'      => 'general',
+                'rows'         => '',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
+            ),
 
-            // Homepage settings
+            // H O M E P A G E   S E T T I N G S
+            //--------------------------------------------------------
             array(
                 'id'           => 'help_textarea',
                 'label'        => 'Lorem ipsum ta mère',
@@ -217,7 +234,8 @@ function custom_theme_options() {
                 'operator'     => 'and'
             ),
 
-            // Social networks
+            // S O C I A L   S E T T I N G S
+            //--------------------------------------------------------
             array(
                 'id'           => 'about_social_networks',
                 'label'        => '&Agrave; propos des réseaux sociaux',
@@ -328,6 +346,23 @@ function custom_theme_options() {
                 'taxonomy'     => '',
                 'class'        => '',
                 'section'      => 'social'
+            ),
+            // D I V E R S   S E T T I N G S
+            //--------------------------------------------------------
+            array(
+                'id'           => 'custom_css',
+                'label'        => 'Custom CSS',
+                'desc'         => '<p>Permet d\'ajouter du css perso. <strong>Cette option est désactivée pour le moment.</strong></p> <p>Permet également d\'utiliser des variables et ça, ... c\'est plutôt fat.</p>',
+                'std'          => '',
+                'type'         => 'css',
+                'section'      => 'divers',
+                'rows'         => '20',
+                'post_type'    => '',
+                'taxonomy'     => '',
+                'min_max_step' => '',
+                'class'        => '',
+                'condition'    => '',
+                'operator'     => 'and'
             )
         )
     );
