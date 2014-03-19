@@ -29,6 +29,9 @@ $under_copy = get_option_tree( 'footer_copyright_left',  $theme_options );
             </div>
         </div>
     </footer>
+<div id="fap">
+    <a href="https://soundcloud.com/ecouteprolongee/sets/tumblr"></a>
+</div>
 </div> <!-- end .ep-container -->
 
 <?php wp_footer();
@@ -45,6 +48,26 @@ $under_copy = get_option_tree( 'footer_copyright_left',  $theme_options );
 </script>
     ';
  ?>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    soundManager.url = '<?php echo get_template_directory_uri();?>/inc/swf/';
+    soundManager.flashVersion = 9;
+    soundManager.useHTML5Audio = true;
+    soundManager.debugMode = false;
+
+    $('#fap').fullwidthAudioPlayer({
+        twitterText: 'Tweeter',
+        facebookText: 'Partager sur Facebook',
+        opened: true,
+        volume: true,
+        autoLoad: true,
+        playNextWhenFinished: true,
+        socials: true
+    });
+
+});
+</script>
 
 </body>
 </html>

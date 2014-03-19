@@ -33,7 +33,7 @@ get_header(); ?>
 
                 <div class="playlist-infos">
                     <div class="playlist-play">
-                        <a href="<?php if( !empty( $soundcloud ) ) { echo $soundcloud; } elseif( !empty( $grooveshark ) ) { echo $grooveshark; } ?>" title="<?php the_title(); ?>" target="_blank"><div class="ep-play-btn"></div></a>
+                        <a class="fap-single-track" href="<?php if( !empty( $soundcloud ) ) { echo $soundcloud; } elseif( !empty( $grooveshark ) ) { echo $grooveshark; } ?>" title="<?php the_title(); ?>" target="_blank"><div class="ep-play-btn"></div></a>
                     </div>
                     <h2 class="playlist-title ep-cf"><?php the_title(); ?></h2>
                     <span class="playlist-genre"><?php echo $genre; ?></span>

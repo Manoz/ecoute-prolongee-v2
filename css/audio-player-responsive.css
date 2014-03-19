@@ -1,0 +1,157 @@
+/*
+* Fullwidth Audio Player - Responsive Layout
+*
+*/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    #fap-meta-wrapper > p {
+        margin-left: 45px !important;
+    }
+
+    #fap-current-cover, #fap-cover-replacement, #fap-cover-replacement canvas, #fap-cover-replacement svg {
+        max-width: 40px !important;
+        max-height: 40px !important;
+    }
+
+    #fap-ui-wrapper > div {
+        display: none;
+    }
+
+    #fap-ui-wrapper > div:first-child {
+        display: block;
+        margin-right: 0;
+    }
+
+    #fap-current-title {
+        font-size: 10px;
+    }
+
+    #fap-social-links {
+        margin-top: 2px;
+
+    }
+
+    #fap-current-meta, #fap-social-links a {
+        font-size: 6px;
+
+    }
+
+    #fap-time-bar, #fap-volume-bar, #fap-volume-sign, #fap-playlist-toggle, #fap-playlist-shuffle {
+        display: none;
+    }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+
+    #fap-main {
+        width: 320px;
+    }
+
+    #fap-meta-wrapper {
+        width: 240px;
+    }
+
+    #fap-ui-wrapper {
+        width: 80px;
+    }
+
+    #fap-time-bar, #fap-volume-bar, #fap-volume-sign, #fap-playlist-toggle, #fap-playlist-shuffle {
+        display: none;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #fap-main {
+        width: 480px;
+    }
+
+    #fap-meta-wrapper {
+        width: 400px;
+    }
+
+    #fap-ui-wrapper {
+        width: 80px;
+    }
+
+    #fap-time-bar, #fap-volume-bar, #fap-volume-sign, #fap-playlist-toggle, #fap-playlist-shuffle {
+        display: none;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+    #fap-main {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 760px;
+    }
+
+    #fap-meta-wrapper {
+        width: 330px;
+    }
+
+    #fap-ui-wrapper {
+        width: 430px;
+    }
+
+    #fap-current-title {
+        font-size: 11px;
+    }
+
+    #fap-current-meta, #fap-social-links a {
+        font-size: 8px;
+    }
+
+    #fap-social-links {
+        margin-top: 2px;
+    }
+
+    #fap-time-bar, #fap-volume-bar, #fap-volume-sign, #fap-playlist-toggle, #fap-playlist-shuffle {
+        display: block;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1024px) {
+
+    #fap-main {
+        width: 960px;
+    }
+
+    #fap-meta-wrapper {
+        width: 430px;
+    }
+
+    #fap-ui-wrapper {
+        width: 530px;
+    }
+
+    #fap-time-bar, #fap-volume-bar, #fap-volume-sign, #fap-playlist-toggle, #fap-playlist-shuffle {
+        display: block;
+    }
+
+    #fap-volume-sign { margin-top: 32px !important;}
+    #fap-playlist-toggle { margin-top: 32px !important;}
+    #fap-playlist-shuffle { margin-top: 32px !important;}
+
+
+}
+
+
