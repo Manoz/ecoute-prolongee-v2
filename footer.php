@@ -29,15 +29,18 @@ $under_copy = get_option_tree( 'footer_copyright_left',  $theme_options );
             </div>
         </div>
     </footer>
-<div id="fap">
-    <a href="https://soundcloud.com/ecouteprolongee/sets/tumblr"></a>
-</div>
 </div> <!-- end .ep-container -->
+
+<div id="fap">
+    <a href="https://soundcloud.com/ecouteprolongee/sets/roulez-jeunesse-festival"></a>
+</div>
 
 <?php wp_footer();
 
+require_once locate_template( '/inc/k-audio-player.php' );
+
     echo '
-<script>
+<script  type="text/javascript">
     (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -48,26 +51,6 @@ $under_copy = get_option_tree( 'footer_copyright_left',  $theme_options );
 </script>
     ';
  ?>
-
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-    soundManager.url = '<?php echo get_template_directory_uri();?>/inc/swf/';
-    soundManager.flashVersion = 9;
-    soundManager.useHTML5Audio = true;
-    soundManager.debugMode = false;
-
-    $('#fap').fullwidthAudioPlayer({
-        twitterText: 'Tweeter',
-        facebookText: 'Partager sur Facebook',
-        opened: true,
-        volume: true,
-        autoLoad: true,
-        playNextWhenFinished: true,
-        socials: true
-    });
-
-});
-</script>
 
 </body>
 </html>
