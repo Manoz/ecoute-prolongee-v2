@@ -29,7 +29,7 @@
 	<title>Écoute Prolongée</title>
 	<link>http://mwanoz.fr/ep</link>
 	<description>De la vid&#233;omusique, vid&#233;oludique</description>
-	<pubDate>Tue, 18 Mar 2014 11:54:12 +0000</pubDate>
+	<pubDate>Wed, 19 Mar 2014 02:38:10 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mwanoz.fr/ep</wp:base_site_url>
@@ -87,6 +87,8 @@
 	<wp:tag><wp:term_id>91</wp:term_id><wp:tag_slug>wtf</wp:tag_slug><wp:tag_name><![CDATA[WTF]]></wp:tag_name></wp:tag>
 	<wp:term><wp:term_id>63</wp:term_id><wp:term_taxonomy>int-tag</wp:term_taxonomy><wp:term_slug>2011</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[2011]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>57</wp:term_id><wp:term_taxonomy>int-tag</wp:term_taxonomy><wp:term_slug>2012</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[2012]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>110</wp:term_id><wp:term_taxonomy>ml-slider</wp:term_taxonomy><wp:term_slug>715</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[715]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>111</wp:term_id><wp:term_taxonomy>ml-slider</wp:term_taxonomy><wp:term_slug>720</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[720]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>64</wp:term_id><wp:term_taxonomy>int-tag</wp:term_taxonomy><wp:term_slug>chine-moses</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[Chine Moses]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>107</wp:term_id><wp:term_taxonomy>int-tag</wp:term_taxonomy><wp:term_slug>coucou</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[coucou]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>67</wp:term_id><wp:term_taxonomy>int-tag</wp:term_taxonomy><wp:term_slug>craft-metal-band</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[Craft (metal band)]]></wp:term_name></wp:term>
@@ -558,11 +560,12 @@
 		<wp:post_name>bigflo-et-oli</wp:post_name>
 		<wp:status>inherit</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
+		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Bigflo-et-Oli1.jpg</wp:attachment_url>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2014/03/Bigflo-et-Oli1.jpg]]></wp:meta_value>
@@ -570,6 +573,18 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:660;s:6:"height";i:250;s:4:"file";s:26:"2014/03/Bigflo-et-Oli1.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"Bigflo-et-Oli1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"Bigflo-et-Oli1-300x113.jpg";s:5:"width";i:300;s:6:"height";i:113;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:15:"resized-260x142";a:5:{s:4:"path";s:82:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Bigflo-et-Oli1-260x142.jpg";s:4:"file";s:26:"Bigflo-et-Oli1-260x142.jpg";s:5:"width";i:260;s:6:"height";i:142;s:9:"mime-type";s:10:"image/jpeg";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -990,156 +1005,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Eveil du sang</title>
-		<link>http://mwanoz.fr/ep/ep-playlists/648/</link>
-		<pubDate>Sun, 16 Mar 2014 12:41:41 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=648</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>648</wp:post_id>
-		<wp:post_date>2014-03-16 12:41:41</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:41:41</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>648</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-playlists</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[606]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>soundcloud_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>grooveshark_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://grooveshark.com/#!/playlist/veil+Du+Sang/94534346]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>spotify_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://open.spotify.com/user/jeanfromageau/playlist/3AXKWOkwZt9SwNUu8SxR2s]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Eveil du sang]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_genre</wp:meta_key>
-			<wp:meta_value><![CDATA[Rock, alternatif, osef]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Tumblr</title>
-		<link>http://mwanoz.fr/ep/ep-playlists/649/</link>
-		<pubDate>Sun, 16 Mar 2014 12:42:26 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=649</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>649</wp:post_id>
-		<wp:post_date>2014-03-16 12:42:26</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:42:26</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>649</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-playlists</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[605]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>soundcloud_url</wp:meta_key>
-			<wp:meta_value><![CDATA[https://soundcloud.com/ecouteprolongee/sets/tumblr]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>grooveshark_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>spotify_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://open.spotify.com/user/jeanfromageau/playlist/6M0qpectUJlRBCxCclqQEZ]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Tumblr]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_genre</wp:meta_key>
-			<wp:meta_value><![CDATA[Techno, minimal, deep house, alternative]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Lives&amp;Sets</title>
-		<link>http://mwanoz.fr/ep/ep-playlists/livessets/</link>
-		<pubDate>Sun, 16 Mar 2014 12:42:58 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=650</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>650</wp:post_id>
-		<wp:post_date>2014-03-16 12:42:58</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:42:58</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>livessets</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-playlists</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>soundcloud_url</wp:meta_key>
-			<wp:meta_value><![CDATA[https://soundcloud.com/ecouteprolongee/sets/lives-sets]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>grooveshark_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>spotify_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Lives&amp;Sets]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>playlist_genre</wp:meta_key>
-			<wp:meta_value><![CDATA[Electronic, minimal, techno, lives, sets]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[651]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title>200ddd</title>
 		<link>http://mwanoz.fr/ep/ep-playlists/livessets/200ddd/</link>
 		<pubDate>Sun, 16 Mar 2014 12:47:48 +0000</pubDate>
@@ -1168,231 +1033,6 @@
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:316;s:6:"height";i:200;s:4:"file";s:18:"2014/03/200ddd.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:18:"200ddd-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:18:"200ddd-300x189.jpg";s:5:"width";i:300;s:6:"height";i:189;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>#3 Fever Ray, Koreless, &amp; Washed Out</title>
-		<link>http://mwanoz.fr/ep/ep-podcasts/3-fever-ray-koreless-washed-out/</link>
-		<pubDate>Sun, 16 Mar 2014 12:56:38 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=653</guid>
-		<description></description>
-		<content:encoded><![CDATA[Coucou, comme on le dit dans le podcast, on est navré pour le retard et l'attente du N°3 et c'est pour ça qu'on a décidé de tourner en plein air. Et pour le coup celui-ci à des airs de déjà vu.
-Encore une fois, les liens sont dans la descriptions. Bisousdoux.
-<h3>Part I —Fever Ray</h3>
-Tu peux trouver l'album en écoute sur Spotify
-Les clips sont vraiment énorme aussi, alors si tu ne sais pas quoi regarder.
-<h3>Part II -- Koreless</h3>
-Son <a href="https://soundcloud.com/koreless," target="_blank">Soundcloud</a> où certains morceaux de l'EP sont en écoute, et de très bon remix. Mais, pour ces derniers, préférez une bonne recherche Youtube des familles.
-Un pour le cailloux
-Deux pour le spectacle
-Trois pour <a href="http://www.discogs.com/Koreless-Y%C5%ABgen/release/4581026" target="_blank">l'achat</a>.
-<h3>Part III -- Washed Out</h3>
-Encore une fois dans la dernière partie je pète un câble. La prononciation du blase étant parfois très approximative. Je vous laisse juger par vous même de la qualité de <a href="http://www.youtube.com/watch?v=qJILRWBKnQ4" target="_blank">It All Feels Right</a>.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>653</wp:post_id>
-		<wp:post_date>2014-03-16 12:56:38</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:56:38</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>3-fever-ray-koreless-washed-out</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-podcasts</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[596]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>youtube_url</wp:meta_key>
-			<wp:meta_value><![CDATA[1PNq3PjIHMo]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>#4 Paléo Festival</title>
-		<link>http://mwanoz.fr/ep/ep-podcasts/4-paleo-festival/</link>
-		<pubDate>Sun, 16 Mar 2014 12:57:14 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=654</guid>
-		<description></description>
-		<content:encoded><![CDATA[<p style="text-align: justify;">Alors, si vous lisez cette petite partie après visionage, je tiens à m'excuser pour les moments d'égarement, de machouillage, de fatigue j'en passe et des meilleurs.
-On veut aussi remercier chaleureusement <strong>Couleur3</strong> et leur moral de dingue, ainsi que Paleo Festival. Podcast spécial, voyez ça comme une version estivale de la recommandation musicale !</p>
-
-<h3>Part I  Lack Of Afro</h3>
-Sur cet épisode, tout est écoutable gratuitement sur Soundcloud, c'est pas joli-beau ça ? Voila ici pour l'album de <a href="https://soundcloud.com/lackofafro/sets/my-groove-your-move" target="_blank">Lack'</a>.
-<h3>Part II - Traumer</h3>
-Hop voila pour le nouvel<em> <a href="https://soundcloud.com/traumer/sets/traumer-movements-ep-skryptom" target="_blank">EP - MOVEMENTS</a></em>
-Et "<a href="https://soundcloud.com/traumer/sets/traumer-innocent-ep-ventura" target="_blank"><em>INNOCENT</em></a>"  ainsi que la version vidéo de <a href="www.youtube.com/watch?v=za456boR3Fo‎" target="_blank"><em>'Slow Run'</em></a>
-<h3><span style="font-size: 14px; line-height: 1.5em;">L'Équipe a dormi depuis le tournage</span></h3>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>654</wp:post_id>
-		<wp:post_date>2014-03-16 12:57:14</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:57:14</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>4-paleo-festival</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-podcasts</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[597]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>youtube_url</wp:meta_key>
-			<wp:meta_value><![CDATA[Eze6-DUMxwo]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>#5 Woodstower Festival</title>
-		<link>http://mwanoz.fr/ep/ep-podcasts/5-woodstower-festival/</link>
-		<pubDate>Sun, 16 Mar 2014 12:57:42 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=655</guid>
-		<description></description>
-		<content:encoded><![CDATA[Numero 5 qui arrive vite. Franchement un plaisir à tourner au Woodstower avec une superbe équipe, super ambiance et petit cadre bien sympa.
-Comme on le dit dans la vidéo, les prochains numéros devraient être sur un format un peu différent. Et comme le disent les Lyonnais ; Bon anniversaire pierrot !
-<h3>Part I — Köldd</h3>
-<a href=" https://soundcloud.com/koldd" target="_blank">Le soundcloud </a>!
-Et le compte <a href="https://www.facebook.com/metaphore.collectif?fref=ts" target="_blank">Facebook</a> du collectif.
-Il vient de sortir un nouveau morceau alors allez y jeter une petite oreille ;)
-<h3>Part II -- Set&amp;Match</h3>
-Aie aie aiiiiie. La chaine Youtube est <a href="http://www.youtube.com/user/setetmatchofficiel?feature=watch" target="_blank">là </a>
-<h3>Part III -- Nine Inch Nails</h3>
-Alors il parait (encore) que Reznor va mettre a disposition une version 100% lossless de Hesitation Marks, c'est juste ici : <a href="http://nin.com" target="_blank">http://nin.com/</a>
-Sur le même site, l'album qui sort dans une semaine est en ecoute gratuite !]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>655</wp:post_id>
-		<wp:post_date>2014-03-16 12:57:42</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:57:42</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>5-woodstower-festival</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-podcasts</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[598]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>youtube_url</wp:meta_key>
-			<wp:meta_value><![CDATA[9bUyRspvTdY]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>#6 Heart of Glass, Heart of Gold Festival</title>
-		<link>http://mwanoz.fr/ep/ep-podcasts/6-heart-of-glass-heart-of-gold-festival/</link>
-		<pubDate>Sun, 16 Mar 2014 12:58:12 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=656</guid>
-		<description></description>
-		<content:encoded><![CDATA[Alors voila ! Voila enfin un festival qui donne envie de s'y remettre, qui sent le sable chaud et la programmation réfléchi, bref un petit plaisir autant pour nos papilles que pour nos oreilles. Merci <a href="http://www.heartofglass-heartofgold.com/" target="_blank">Heart Of Glass, Heart of Gold </a>.
-Merci à vous aussi et navré pour la petite absence de Septembre.
-
-Quand au podcast :
-
-Part I — Summer Camp
-<a href=" https://soundcloud.com/summer-camp" target="_blank">Le soundcloud </a>!
-Pas grand chose a rajouter sur ce petit groupe, ni sur cette belle tentative de plongeon dantesque.
-
-Part II -- Motorama
-Un p'tit lien vers <a href=" http://talitres.com/" target="_blank">Talitres Rec</a>, label indie
-
-Part III -- La Dame Noir
-Et le <a href="https://soundcloud.com/la-dame-noir" target="_blank">soundcloud</a> avec le morceau de fin du podcast, Erratum aussi, c'est "La Dame Noir" sans "e"..
-
-Et gros big-up à <a href="https://www.facebook.com/PafpafLapin" target="_blank">PafPaf-Lapin</a> !]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>656</wp:post_id>
-		<wp:post_date>2014-03-16 12:58:12</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:58:12</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>6-heart-of-glass-heart-of-gold-festival</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-podcasts</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[599]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>youtube_url</wp:meta_key>
-			<wp:meta_value><![CDATA[Qz3I27jBJbE]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>#7 Modwheelmood</title>
-		<link>http://mwanoz.fr/ep/ep-podcasts/7-modwheelmood/</link>
-		<pubDate>Sun, 16 Mar 2014 12:58:34 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=657</guid>
-		<description></description>
-		<content:encoded><![CDATA[Après une bonne grosse période d'absence on repense les podcast sur des formats plus court. Cette semaine c'est <strong>Modwheelmood</strong> projet duo d'<em>Alessandro Cortini</em>.  On vous lâche quelques liens, histoire de savoir où mettre les pattes
-
-MODWHEELMOOD
-<ul>
-	<li><a href="http://open.spotify.com/artist/5upXSs1tvas8ODggCi97Yd" target="_blank">Spotify</a></li>
-</ul>
-SONOIO
-<ul>
-	<li><a href="http://vimeo.com/channels/sonoio" target="_blank">Chaine Vimeo</a></li>
-	<li><a href="http://open.spotify.com/artist/4vh9kE1fATE3Z6LUQUKdc3" target="_blank">Spotify</a></li>
-</ul>
-<span style="line-height: 1.5em;"> </span>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>657</wp:post_id>
-		<wp:post_date>2014-03-16 12:58:34</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 12:58:34</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>7-modwheelmood</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>ep-podcasts</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[600]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>youtube_url</wp:meta_key>
-			<wp:meta_value><![CDATA[70ND4bgW85o]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1502,6 +1142,14 @@ SONOIO
 			<wp:meta_key>ep_url_value</wp:meta_key>
 			<wp:meta_value><![CDATA[https://www.facebook.com/events/653052024741889/]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>event_tickets</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.mwanoz.fr/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>event_soldout</wp:meta_key>
+			<wp:meta_value><![CDATA[off]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 				<title>VICE présente le numéro MODE 2014, avec le GRRRRR Photo Contest</title>
@@ -1548,6 +1196,14 @@ SONOIO
 			<wp:meta_key>ep_url_value</wp:meta_key>
 			<wp:meta_value><![CDATA[https://www.facebook.com/events/1433528296891415/?source=3&amp;source_newsfeed_story_type=regular]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>event_tickets</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.mwanoz.fr/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>event_soldout</wp:meta_key>
+			<wp:meta_value><![CDATA[on]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 				<title>Festival Roulez Jeunesse</title>
@@ -1588,71 +1244,388 @@ SONOIO
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>ep_prix_value</wp:meta_key>
-			<wp:meta_value><![CDATA[75€]]></wp:meta_value>
+			<wp:meta_value><![CDATA[50€]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>ep_url_value</wp:meta_key>
 			<wp:meta_value><![CDATA[https://www.facebook.com/festivalroulezjeunesse]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-				<title>Homepage</title>
-		<link>http://mwanoz.fr/ep/</link>
-		<pubDate>Sun, 16 Mar 2014 00:43:21 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=587</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>587</wp:post_id>
-		<wp:post_date>2014-03-16 00:43:21</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 00:43:21</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>homepage</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key>event_soldout</wp:meta_key>
+			<wp:meta_value><![CDATA[off]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[templates/tpl_homepage.php]]></wp:meta_value>
+			<wp:meta_key>event_tickets</wp:meta_key>
+			<wp:meta_value><![CDATA[http://www.roulez-jeunesse.com/festival/billetterie/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Blog</title>
-		<link>http://mwanoz.fr/ep/blog/</link>
-		<pubDate>Sun, 16 Mar 2014 00:43:42 +0000</pubDate>
+				<title>podcasts</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=716</link>
+		<pubDate>Tue, 18 Mar 2014 18:32:27 +0000</pubDate>
 		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=589</guid>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/podcasts.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>589</wp:post_id>
-		<wp:post_date>2014-03-16 00:43:42</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 00:43:42</wp:post_date_gmt>
+		<wp:post_id>716</wp:post_id>
+		<wp:post_date>2014-03-18 18:32:27</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 18:32:27</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
+		<wp:post_name>podcasts-2</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
+		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/podcasts.jpg</wp:attachment_url>
+		<category domain="ml-slider" nicename="715"><![CDATA[715]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[templates/tpl_blog.php]]></wp:meta_value>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/podcasts.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1000;s:6:"height";i:400;s:4:"file";s:20:"2014/03/podcasts.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"podcasts-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:20:"podcasts-300x120.jpg";s:5:"width";i:300;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:15:"resized-700x300";a:5:{s:4:"path";s:76:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/podcasts-700x300.jpg";s:4:"file";s:20:"podcasts-700x300.jpg";s:5:"width";i:700;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/podcasts/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>rj</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=717</link>
+		<pubDate>Tue, 18 Mar 2014 18:33:04 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/rj.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>717</wp:post_id>
+		<wp:post_date>2014-03-18 18:33:04</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 18:33:04</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>rj</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/rj.jpg</wp:attachment_url>
+		<category domain="ml-slider" nicename="715"><![CDATA[715]]></category>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/rj.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1000;s:6:"height";i:400;s:4:"file";s:14:"2014/03/rj.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:14:"rj-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:14:"rj-300x120.jpg";s:5:"width";i:300;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:15:"resized-700x300";a:5:{s:4:"path";s:70:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/rj-700x300.jpg";s:4:"file";s:14:"rj-700x300.jpg";s:5:"width";i:700;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:15:"resized-260x142";a:5:{s:4:"path";s:70:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/rj-260x142.jpg";s:4:"file";s:14:"rj-260x142.jpg";s:5:"width";i:260;s:6:"height";i:142;s:9:"mime-type";s:10:"image/jpeg";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/bigflo-et-oli-le-hip-hop-qui-monte/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Playlists</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=718</link>
+		<pubDate>Tue, 18 Mar 2014 18:33:25 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/Playlists.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>718</wp:post_id>
+		<wp:post_date>2014-03-18 18:33:25</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 18:33:25</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>playlists-2</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Playlists.jpg</wp:attachment_url>
+		<category domain="ml-slider" nicename="715"><![CDATA[715]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/Playlists.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1000;s:6:"height";i:400;s:4:"file";s:21:"2014/03/Playlists.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:21:"Playlists-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:21:"Playlists-300x120.jpg";s:5:"width";i:300;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:15:"resized-700x300";a:5:{s:4:"path";s:77:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Playlists-700x300.jpg";s:4:"file";s:21:"Playlists-700x300.jpg";s:5:"width";i:700;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/playlists/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Lancement</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=719</link>
+		<pubDate>Tue, 18 Mar 2014 18:33:41 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/Lancement2.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>719</wp:post_id>
+		<wp:post_date>2014-03-18 18:33:41</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 18:33:41</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>lancement-2</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Lancement2.jpg</wp:attachment_url>
+		<category domain="ml-slider" nicename="715"><![CDATA[715]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/Lancement2.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:660;s:6:"height";i:250;s:4:"file";s:22:"2014/03/Lancement2.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"Lancement2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:22:"Lancement2-300x113.jpg";s:5:"width";i:300;s:6:"height";i:113;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:15:"resized-700x300";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Lancement2-700x300.jpg";s:4:"file";s:22:"Lancement2-700x300.jpg";s:5:"width";i:660;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:15:"resized-625x250";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Lancement2-625x250.jpg";s:4:"file";s:22:"Lancement2-625x250.jpg";s:5:"width";i:625;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/ecoute-prolongee-le-blog/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Jezz-at-Home</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=721</link>
+		<pubDate>Tue, 18 Mar 2014 21:50:27 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/Jezz-at-Home.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>721</wp:post_id>
+		<wp:post_date>2014-03-18 21:50:27</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 21:50:27</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>jezz-at-home</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Jezz-at-Home.png</wp:attachment_url>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/Jezz-at-Home.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:260;s:6:"height";i:142;s:4:"file";s:24:"2014/03/Jezz-at-Home.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"Jezz-at-Home-150x142.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:4:{s:15:"resized-150x150";a:5:{s:4:"path";s:80:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Jezz-at-Home-150x150.png";s:4:"file";s:24:"Jezz-at-Home-150x150.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}s:15:"resized-260x104";a:5:{s:4:"path";s:80:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Jezz-at-Home-260x104.png";s:4:"file";s:24:"Jezz-at-Home-260x104.png";s:5:"width";i:260;s:6:"height";i:104;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x52";a:5:{s:4:"path";s:79:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Jezz-at-Home-260x52.png";s:4:"file";s:23:"Jezz-at-Home-260x52.png";s:5:"width";i:260;s:6:"height";i:52;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x78";a:5:{s:4:"path";s:79:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Jezz-at-Home-260x78.png";s:4:"file";s:23:"Jezz-at-Home-260x78.png";s:5:"width";i:260;s:6:"height";i:78;s:9:"mime-type";s:9:"image/png";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Roger-Molls</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=722</link>
+		<pubDate>Tue, 18 Mar 2014 21:50:28 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/Roger-Molls.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>722</wp:post_id>
+		<wp:post_date>2014-03-18 21:50:28</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 21:50:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>roger-molls</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Roger-Molls.png</wp:attachment_url>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/Roger-Molls.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:260;s:6:"height";i:142;s:4:"file";s:23:"2014/03/Roger-Molls.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:23:"Roger-Molls-150x142.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:4:{s:15:"resized-150x150";a:5:{s:4:"path";s:79:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Roger-Molls-150x150.png";s:4:"file";s:23:"Roger-Molls-150x150.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}s:15:"resized-260x104";a:5:{s:4:"path";s:79:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Roger-Molls-260x104.png";s:4:"file";s:23:"Roger-Molls-260x104.png";s:5:"width";i:260;s:6:"height";i:104;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x52";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Roger-Molls-260x52.png";s:4:"file";s:22:"Roger-Molls-260x52.png";s:5:"width";i:260;s:6:"height";i:52;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x78";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Roger-Molls-260x78.png";s:4:"file";s:22:"Roger-Molls-260x78.png";s:5:"width";i:260;s:6:"height";i:78;s:9:"mime-type";s:9:"image/png";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Thylacine1</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=723</link>
+		<pubDate>Tue, 18 Mar 2014 21:50:28 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/Thylacine1.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>723</wp:post_id>
+		<wp:post_date>2014-03-18 21:50:28</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 21:50:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>thylacine1</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/Thylacine1.png</wp:attachment_url>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/Thylacine1.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:260;s:6:"height";i:142;s:4:"file";s:22:"2014/03/Thylacine1.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"Thylacine1-150x142.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:4:{s:15:"resized-150x150";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Thylacine1-150x150.png";s:4:"file";s:22:"Thylacine1-150x150.png";s:5:"width";i:150;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}s:15:"resized-260x104";a:5:{s:4:"path";s:78:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Thylacine1-260x104.png";s:4:"file";s:22:"Thylacine1-260x104.png";s:5:"width";i:260;s:6:"height";i:104;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x52";a:5:{s:4:"path";s:77:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Thylacine1-260x52.png";s:4:"file";s:21:"Thylacine1-260x52.png";s:5:"width";i:260;s:6:"height";i:52;s:9:"mime-type";s:9:"image/png";}s:14:"resized-260x78";a:5:{s:4:"path";s:77:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/Thylacine1-260x78.png";s:4:"file";s:21:"Thylacine1-260x78.png";s:5:"width";i:260;s:6:"height";i:78;s:9:"mime-type";s:9:"image/png";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>logo-ep-2</title>
+		<link>http://mwanoz.fr/ep/?attachment_id=724</link>
+		<pubDate>Tue, 18 Mar 2014 21:53:00 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/wp-content/uploads/2014/03/logo-ep-2.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>724</wp:post_id>
+		<wp:post_date>2014-03-18 21:53:00</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 21:53:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>logo-ep-2</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>659</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://mwanoz.fr/ep/wp-content/uploads/2014/03/logo-ep-2.png</wp:attachment_url>
+		<category domain="ml-slider" nicename="720"><![CDATA[720]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2014/03/logo-ep-2.png]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:21:"2014/03/logo-ep-2.png";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:21:"logo-ep-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:21:"logo-ep-2-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_type</wp:meta_key>
+			<wp:meta_value><![CDATA[image]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_backup_sizes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:15:"resized-260x142";a:5:{s:4:"path";s:77:"/home/manozfr/public_html/ep/wp-content/uploads/2014/03/logo-ep-2-260x142.png";s:4:"file";s:21:"logo-ep-2-260x142.png";s:5:"width";i:260;s:6:"height";i:142;s:9:"mime-type";s:9:"image/png";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1885,66 +1858,6 @@ SONOIO
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Playlists</title>
-		<link>http://mwanoz.fr/ep/playlists/</link>
-		<pubDate>Sun, 16 Mar 2014 00:50:50 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=609</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>609</wp:post_id>
-		<wp:post_date>2014-03-16 00:50:50</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 00:50:50</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>playlists</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[templates/tpl_playlists.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Podcasts</title>
-		<link>http://mwanoz.fr/ep/podcasts/</link>
-		<pubDate>Sun, 16 Mar 2014 00:50:59 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=611</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>611</wp:post_id>
-		<wp:post_date>2014-03-16 00:50:59</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 00:50:59</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>podcasts</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[templates/tpl_podcasts.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title></title>
 		<link>http://mwanoz.fr/ep/613/</link>
 		<pubDate>Sun, 16 Mar 2014 00:51:13 +0000</pubDate>
@@ -2055,6 +1968,381 @@ SONOIO
 		</wp:postmeta>
 	</item>
 	<item>
+				<title>Eveil du sang</title>
+		<link>http://mwanoz.fr/ep/ep-playlists/648/</link>
+		<pubDate>Sun, 16 Mar 2014 12:41:41 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=648</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>648</wp:post_id>
+		<wp:post_date>2014-03-16 12:41:41</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:41:41</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>648</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-playlists</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[606]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>soundcloud_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>grooveshark_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://grooveshark.com/#!/playlist/veil+Du+Sang/94534346]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>spotify_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://open.spotify.com/user/jeanfromageau/playlist/3AXKWOkwZt9SwNUu8SxR2s]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Eveil du sang]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_genre</wp:meta_key>
+			<wp:meta_value><![CDATA[Rock, alternatif, osef]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Tumblr</title>
+		<link>http://mwanoz.fr/ep/ep-playlists/649/</link>
+		<pubDate>Sun, 16 Mar 2014 12:42:26 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=649</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>649</wp:post_id>
+		<wp:post_date>2014-03-16 12:42:26</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:42:26</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>649</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-playlists</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[605]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>soundcloud_url</wp:meta_key>
+			<wp:meta_value><![CDATA[https://soundcloud.com/ecouteprolongee/sets/tumblr]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>grooveshark_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>spotify_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://open.spotify.com/user/jeanfromageau/playlist/6M0qpectUJlRBCxCclqQEZ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Tumblr]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_genre</wp:meta_key>
+			<wp:meta_value><![CDATA[Techno, minimal, deep house, alternative]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Lives&amp;Sets</title>
+		<link>http://mwanoz.fr/ep/ep-playlists/livessets/</link>
+		<pubDate>Sun, 16 Mar 2014 12:42:58 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-playlists&#038;p=650</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>650</wp:post_id>
+		<wp:post_date>2014-03-16 12:42:58</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:42:58</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>livessets</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-playlists</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>soundcloud_url</wp:meta_key>
+			<wp:meta_value><![CDATA[https://soundcloud.com/ecouteprolongee/sets/lives-sets]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>grooveshark_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>spotify_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Lives&amp;Sets]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>playlist_genre</wp:meta_key>
+			<wp:meta_value><![CDATA[Electronic, minimal, techno, lives, sets]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[651]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>#3 Fever Ray, Koreless, &amp; Washed Out</title>
+		<link>http://mwanoz.fr/ep/ep-podcasts/3-fever-ray-koreless-washed-out/</link>
+		<pubDate>Sun, 16 Mar 2014 12:56:38 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=653</guid>
+		<description></description>
+		<content:encoded><![CDATA[Coucou, comme on le dit dans le podcast, on est navré pour le retard et l'attente du N°3 et c'est pour ça qu'on a décidé de tourner en plein air. Et pour le coup celui-ci à des airs de déjà vu.
+Encore une fois, les liens sont dans la descriptions. Bisousdoux.
+<h3>Part I —Fever Ray</h3>
+Tu peux trouver l'album en écoute sur Spotify
+Les clips sont vraiment énorme aussi, alors si tu ne sais pas quoi regarder.
+<h3>Part II -- Koreless</h3>
+Son <a href="https://soundcloud.com/koreless," target="_blank">Soundcloud</a> où certains morceaux de l'EP sont en écoute, et de très bon remix. Mais, pour ces derniers, préférez une bonne recherche Youtube des familles.
+Un pour le cailloux
+Deux pour le spectacle
+Trois pour <a href="http://www.discogs.com/Koreless-Y%C5%ABgen/release/4581026" target="_blank">l'achat</a>.
+<h3>Part III -- Washed Out</h3>
+Encore une fois dans la dernière partie je pète un câble. La prononciation du blase étant parfois très approximative. Je vous laisse juger par vous même de la qualité de <a href="http://www.youtube.com/watch?v=qJILRWBKnQ4" target="_blank">It All Feels Right</a>.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>653</wp:post_id>
+		<wp:post_date>2014-03-16 12:56:38</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:56:38</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>3-fever-ray-koreless-washed-out</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-podcasts</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[596]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>youtube_url</wp:meta_key>
+			<wp:meta_value><![CDATA[1PNq3PjIHMo]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>#4 Paléo Festival</title>
+		<link>http://mwanoz.fr/ep/ep-podcasts/4-paleo-festival/</link>
+		<pubDate>Sun, 16 Mar 2014 12:57:14 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=654</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p style="text-align: justify;">Alors, si vous lisez cette petite partie après visionage, je tiens à m'excuser pour les moments d'égarement, de machouillage, de fatigue j'en passe et des meilleurs.
+On veut aussi remercier chaleureusement <strong>Couleur3</strong> et leur moral de dingue, ainsi que Paleo Festival. Podcast spécial, voyez ça comme une version estivale de la recommandation musicale !</p>
+
+<h3>Part I  Lack Of Afro</h3>
+Sur cet épisode, tout est écoutable gratuitement sur Soundcloud, c'est pas joli-beau ça ? Voila ici pour l'album de <a href="https://soundcloud.com/lackofafro/sets/my-groove-your-move" target="_blank">Lack'</a>.
+<h3>Part II - Traumer</h3>
+Hop voila pour le nouvel<em> <a href="https://soundcloud.com/traumer/sets/traumer-movements-ep-skryptom" target="_blank">EP - MOVEMENTS</a></em>
+Et "<a href="https://soundcloud.com/traumer/sets/traumer-innocent-ep-ventura" target="_blank"><em>INNOCENT</em></a>"  ainsi que la version vidéo de <a href="www.youtube.com/watch?v=za456boR3Fo‎" target="_blank"><em>'Slow Run'</em></a>
+<h3><span style="font-size: 14px; line-height: 1.5em;">L'Équipe a dormi depuis le tournage</span></h3>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>654</wp:post_id>
+		<wp:post_date>2014-03-16 12:57:14</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:57:14</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>4-paleo-festival</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-podcasts</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[597]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>youtube_url</wp:meta_key>
+			<wp:meta_value><![CDATA[Eze6-DUMxwo]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>#5 Woodstower Festival</title>
+		<link>http://mwanoz.fr/ep/ep-podcasts/5-woodstower-festival/</link>
+		<pubDate>Sun, 16 Mar 2014 12:57:42 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=655</guid>
+		<description></description>
+		<content:encoded><![CDATA[Numero 5 qui arrive vite. Franchement un plaisir à tourner au Woodstower avec une superbe équipe, super ambiance et petit cadre bien sympa.
+Comme on le dit dans la vidéo, les prochains numéros devraient être sur un format un peu différent. Et comme le disent les Lyonnais ; Bon anniversaire pierrot !
+<h3>Part I — Köldd</h3>
+<a href=" https://soundcloud.com/koldd" target="_blank">Le soundcloud </a>!
+Et le compte <a href="https://www.facebook.com/metaphore.collectif?fref=ts" target="_blank">Facebook</a> du collectif.
+Il vient de sortir un nouveau morceau alors allez y jeter une petite oreille ;)
+<h3>Part II -- Set&amp;Match</h3>
+Aie aie aiiiiie. La chaine Youtube est <a href="http://www.youtube.com/user/setetmatchofficiel?feature=watch" target="_blank">là </a>
+<h3>Part III -- Nine Inch Nails</h3>
+Alors il parait (encore) que Reznor va mettre a disposition une version 100% lossless de Hesitation Marks, c'est juste ici : <a href="http://nin.com" target="_blank">http://nin.com/</a>
+Sur le même site, l'album qui sort dans une semaine est en ecoute gratuite !]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>655</wp:post_id>
+		<wp:post_date>2014-03-16 12:57:42</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:57:42</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>5-woodstower-festival</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-podcasts</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[598]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>youtube_url</wp:meta_key>
+			<wp:meta_value><![CDATA[9bUyRspvTdY]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>#6 Heart of Glass, Heart of Gold Festival</title>
+		<link>http://mwanoz.fr/ep/ep-podcasts/6-heart-of-glass-heart-of-gold-festival/</link>
+		<pubDate>Sun, 16 Mar 2014 12:58:12 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=656</guid>
+		<description></description>
+		<content:encoded><![CDATA[Alors voila ! Voila enfin un festival qui donne envie de s'y remettre, qui sent le sable chaud et la programmation réfléchi, bref un petit plaisir autant pour nos papilles que pour nos oreilles. Merci <a href="http://www.heartofglass-heartofgold.com/" target="_blank">Heart Of Glass, Heart of Gold </a>.
+Merci à vous aussi et navré pour la petite absence de Septembre.
+
+Quand au podcast :
+
+Part I — Summer Camp
+<a href=" https://soundcloud.com/summer-camp" target="_blank">Le soundcloud </a>!
+Pas grand chose a rajouter sur ce petit groupe, ni sur cette belle tentative de plongeon dantesque.
+
+Part II -- Motorama
+Un p'tit lien vers <a href=" http://talitres.com/" target="_blank">Talitres Rec</a>, label indie
+
+Part III -- La Dame Noir
+Et le <a href="https://soundcloud.com/la-dame-noir" target="_blank">soundcloud</a> avec le morceau de fin du podcast, Erratum aussi, c'est "La Dame Noir" sans "e"..
+
+Et gros big-up à <a href="https://www.facebook.com/PafpafLapin" target="_blank">PafPaf-Lapin</a> !]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>656</wp:post_id>
+		<wp:post_date>2014-03-16 12:58:12</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:58:12</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>6-heart-of-glass-heart-of-gold-festival</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-podcasts</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[599]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>youtube_url</wp:meta_key>
+			<wp:meta_value><![CDATA[Qz3I27jBJbE]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>#7 Modwheelmood</title>
+		<link>http://mwanoz.fr/ep/ep-podcasts/7-modwheelmood/</link>
+		<pubDate>Sun, 16 Mar 2014 12:58:34 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ep-podcasts&#038;p=657</guid>
+		<description></description>
+		<content:encoded><![CDATA[Après une bonne grosse période d'absence on repense les podcast sur des formats plus court. Cette semaine c'est <strong>Modwheelmood</strong> projet duo d'<em>Alessandro Cortini</em>.  On vous lâche quelques liens, histoire de savoir où mettre les pattes
+
+MODWHEELMOOD
+<ul>
+	<li><a href="http://open.spotify.com/artist/5upXSs1tvas8ODggCi97Yd" target="_blank">Spotify</a></li>
+</ul>
+SONOIO
+<ul>
+	<li><a href="http://vimeo.com/channels/sonoio" target="_blank">Chaine Vimeo</a></li>
+	<li><a href="http://open.spotify.com/artist/4vh9kE1fATE3Z6LUQUKdc3" target="_blank">Spotify</a></li>
+</ul>
+<span style="line-height: 1.5em;"> </span>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>657</wp:post_id>
+		<wp:post_date>2014-03-16 12:58:34</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 12:58:34</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>7-modwheelmood</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ep-podcasts</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[600]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>youtube_url</wp:meta_key>
+			<wp:meta_value><![CDATA[70ND4bgW85o]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 				<title>#8 Saint Saëns</title>
 		<link>http://mwanoz.fr/ep/ep-podcasts/8-saint-saens/</link>
 		<pubDate>Sun, 16 Mar 2014 12:59:01 +0000</pubDate>
@@ -2092,264 +2380,6 @@ Le lien pour aller voir l<a href="http://www.youtube.com/watch?v=io4Weec8Crk" ta
 		<wp:postmeta>
 			<wp:meta_key>youtube_url</wp:meta_key>
 			<wp:meta_value><![CDATA[uIbifDku0Ek]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>On aime</title>
-		<link>http://mwanoz.fr/ep/on-aime/</link>
-		<pubDate>Sun, 16 Mar 2014 19:14:21 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=664</guid>
-		<description></description>
-		<content:encoded><![CDATA[<p style="line-height: 1.3;">Eddy Mitchell écoutait le disc jockey sur la route de Memphis, nous on a carrément rencontré des artistes en chair et en os sur la route du Web.<br>
-Dans cette section tu trouveras des gens qu'on aime vraiment, et comme on les aime on voudrait pas que tu passes à coté. Et puis qui sait dans 1 an, 1 mois, 1h ça sera peut être toi qui ira les voir en live (en tout cas on te le souhaite).</p>
-
-&nbsp;
-
-<p style="text-align: justify; font-size: 13px;"><a href="https://soundcloud.com/thylacinew" target="_blank"><img class="alignleft size-full wp-image-252" alt="Thylacine" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Thylacine1.png" width="260" height="142" /></a><strong>THYLACINE </strong><em>(Electronica /Trip hop/ Minimale)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/thylacinew"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/5If5Tdg66Q5X3L57G7A6Pn"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
-Thylacine c'est un artiste d'Angers. Comme ça ça ne paie pas de mine, et on peut comprendre que les plus parisiens d'entre vous se laisseront guider par leur instinct anti-provinciaux, mais dieu sait que vous feriez une énorme bêtise en passant à côté de William Thylacine.  Le thylacine, marsupial de son état, c'est surtout un putain de mec qui te fera voyager, rêver et espérer un avenir musical plus radieux pour une France qui respire la sueur et les parfums d'été. Si on a qu'un seul conseil c'est d'aller écouter, sans vraiment poser de questions.</p>
-
-&nbsp;
-
-<p style="text-align: justify; font-size: 13px;"><a href="http://www.rogermolls.com/" target="_blank"><img class="alignleft size-full wp-image-254" alt="Roger Molls" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Roger-Molls.png" width="260" height="142" /></a> <strong>ROGER MOLLS </strong><em>(Beatmaker)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/roger-molls"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/2e8lWdeklPbzo7zTn6Mka1"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
-"Salut, moi c'est Roger Molls (prononcez le Roger et pas Roj'eur, ça pourrait choquer vos amis) et je fais de la Musique depuis un moment, franchement c'est pas un gage de qualité pour un paquet d'artistes mais pour moi c'est carrément le cas." Voila rapidement comment ce beatmaker du Nord aurait pu se présenter si jamais vous le croisez sur un de vos réseaux. Nous on est fan de Roger comme on peut être fan du vin rouge/fromage; c'est pas une folie douce mais c'est carrément le genre d'artistes que vous pouvez écouter sur un coup de tête et finir par répéter sa discographie 4fois de suite.
-Nan franchement, faites pas les fines bouches et reprenez un peu de Molls.</p>
-
-&nbsp;
-
-<p style="text-align: justify; font-size: 13px;"><a href="https://soundcloud.com/jezz-at-home" target="_blank"><img class="alignleft size-full wp-image-255" alt="Jezz at Home" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Jezz-at-Home.png" width="260" height="142" /></a> <strong>JEZZ AT HOME </strong><em>(Funk, instrumental, jazz, et souvent ça groove)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/jezz-at-home"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/2hnyGOBlaix0B8LGLy5WLy"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
-AH. Nan franchement eux c'est nos potes qu'on aime, nos petits chouchous Lyonnais. On a pas trop l'habitude de suivre un groupe d'aussi près, mais eux c'est le sax' qui sex et le piano qui transpire à chaque fois.
-Duo composé de Laurent et Tom, c'est presque aussi cosi d'écouter leur album dans ton salon que de swinguer à l'ancienne sur les parquets des piano-bars sexy. Si tu voudrais que Air et Miles Davis bossent ensemble : Jezz at Home.</p>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>664</wp:post_id>
-		<wp:post_date>2014-03-16 19:14:21</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 19:14:21</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>on-aime</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>Qui sommes-nous ?</title>
-		<link>http://mwanoz.fr/ep/qui-sommes-nous/</link>
-		<pubDate>Sun, 16 Mar 2014 19:14:50 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=666</guid>
-		<description></description>
-		<content:encoded><![CDATA[<h1>ÉcouteProlongée, poseur de son dans les voitures tunés</h1>
-<p style="padding-left: 60px;"><strong>Écoute Prolongée</strong> c’est une asso de potes qui un jour se sont dit “Hey mec elle est où ma caisse ?”. Mais aussi que ça serait pas mal de rajouter un blog de recommandation de Musique sur les internets.</p>
-<p style="padding-left: 60px;">Éduqués avec les reconnus <strong>LeTourneDisque</strong> et <strong>DélicieuseMusique</strong>, on essaye de proposer aux internautes une vision plus déconne de la Musique parce que dans ces moments là on apprécie bien une bonne suite d’accords.</p>
-<p style="padding-left: 60px;">Niveau terrain on se plait a filmer et rajouter un peu d’image dans toutes ces sonorités.
-<em>Ps : On aime la techno autant que le Jazz.</em></p>
-Si tu aimes notre style et que tu t’épiles  alors tu peux surement passer sur ces blogs là, c’est nos copains :
-
-[one_fourth]<a title="Génération Spontanée" href="http://www.generationspontanee.fr" target="_blank"><img class="size-full wp-image-311 alignleft" style="margin-right: 30px;" alt="G-spon" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/G-spon.png" width="238" height="126" /></a>[/one_fourth]
-[one_fourth]<a title="Radioelectrolyon" href="http://www.radioelectrolyon.fr/" target="_blank"><img class="size-full wp-image-313 alignleft" style="margin-right: 30px;" alt="ReL" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/ReL.png" width="164" height="126" /></a>[/one_fourth]
-[one_fourth]<a title="Roulez Jeunesse" href="http://www.roulez-jeunesse.com/" target="_blank"><img class="size-medium wp-image-314 alignleft" style="margin-right: 30px;" alt="roulezjeunesse" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/roulezjeunesse.png" width="102" height="126" /></a>[/one_fourth]
-[one_fourth_last]<a title="Le Gros Tas de Zik" href="http://www.legrostasdezik.com/" target="_blank"><img class="size-full wp-image-312 alignleft" alt="grostaszik" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/grostaszik.png" width="250" height="126" /></a>[/one_fourth_last]
-
-[one_fourth]<a href="http://anotherwhiskyformisterbukowski.com/"><img class="size-full wp-image-379 alignleft" alt="another" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/another.png" width="79" height="126" /></a>[/one_fourth]
-[one_fourth]<a href="http://www.letournedisque.com"><img class="size-medium wp-image-380 alignleft" alt="tourned" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/tourned.png" width="224" height="126" /></a>[/one_fourth]
-[one_fourth][/one_fourth]
-[one_fourth_last][/one_fourth_last]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>666</wp:post_id>
-		<wp:post_date>2014-03-16 19:14:50</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 19:14:50</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>qui-sommes-nous</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title></title>
-		<link>http://mwanoz.fr/ep/668/</link>
-		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=668</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>668</wp:post_id>
-		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>668</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[670]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[666]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title></title>
-		<link>http://mwanoz.fr/ep/669/</link>
-		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=669</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>669</wp:post_id>
-		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>669</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[670]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[664]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-				<title>À propos</title>
-		<link>http://mwanoz.fr/ep/a-propos/</link>
-		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
-		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=670</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>670</wp:post_id>
-		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
-		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>a-propos</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[670]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[#]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -2513,58 +2543,175 @@ Merci donc à Dave d’avoir répondu avec le sourire à nos questions, n’hés
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Interviews</title>
-		<link>http://mwanoz.fr/ep/interviews/</link>
-		<pubDate>Mon, 17 Mar 2014 15:57:22 +0000</pubDate>
+				<title>Slider home</title>
+		<link>http://mwanoz.fr/ep/?post_type=ml-slider&#038;p=715</link>
+		<pubDate>Tue, 18 Mar 2014 18:26:07 +0000</pubDate>
 		<dc:creator><![CDATA[Admin]]></dc:creator>
-		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=693</guid>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ml-slider&#038;p=715</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>693</wp:post_id>
-		<wp:post_date>2014-03-17 15:57:22</wp:post_date>
-		<wp:post_date_gmt>2014-03-17 15:57:22</wp:post_date_gmt>
+		<wp:post_id>715</wp:post_id>
+		<wp:post_date>2014-03-18 18:26:07</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 18:26:07</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>interviews</wp:post_name>
+		<wp:post_name>new-slider</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ml-slider</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
 		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+			<wp:meta_key>ml-slider_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:35:{s:4:"type";s:4:"flex";s:6:"random";s:5:"false";s:8:"cssClass";s:0:"";s:8:"printCss";s:4:"true";s:7:"printJs";s:4:"true";s:5:"width";s:4:"1000";s:6:"height";s:3:"400";s:3:"spw";s:1:"7";s:3:"sph";s:1:"5";s:5:"delay";s:4:"6000";s:6:"sDelay";s:2:"30";s:7:"opacity";s:3:"0.7";s:10:"titleSpeed";s:3:"500";s:6:"effect";s:4:"fade";s:10:"navigation";s:5:"false";s:5:"links";s:4:"true";s:10:"hoverPause";s:4:"true";s:5:"theme";s:7:"default";s:9:"direction";s:10:"horizontal";s:7:"reverse";s:5:"false";s:14:"animationSpeed";s:3:"600";s:8:"prevText";s:1:"<";s:8:"nextText";s:1:">";s:6:"slices";s:2:"15";s:6:"center";s:4:"true";s:9:"smartCrop";s:4:"true";s:12:"carouselMode";s:5:"false";s:14:"carouselMargin";s:1:"5";s:6:"easing";s:6:"linear";s:8:"autoPlay";s:4:"true";s:11:"thumb_width";i:150;s:12:"thumb_height";i:100;s:9:"fullWidth";s:4:"true";s:10:"noConflict";s:4:"true";s:12:"smoothHeight";s:5:"false";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Carousel footer</title>
+		<link>http://mwanoz.fr/ep/?post_type=ml-slider&#038;p=720</link>
+		<pubDate>Tue, 18 Mar 2014 21:49:20 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?post_type=ml-slider&#038;p=720</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>720</wp:post_id>
+		<wp:post_date>2014-03-18 21:49:20</wp:post_date>
+		<wp:post_date_gmt>2014-03-18 21:49:20</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>new-slider-2</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>ml-slider</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>ml-slider_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[a:35:{s:4:"type";s:4:"flex";s:6:"random";s:5:"false";s:8:"cssClass";s:0:"";s:8:"printCss";s:4:"true";s:7:"printJs";s:4:"true";s:5:"width";s:3:"260";s:6:"height";s:3:"142";s:3:"spw";s:1:"7";s:3:"sph";s:1:"5";s:5:"delay";s:4:"6000";s:6:"sDelay";s:2:"30";s:7:"opacity";s:3:"0.7";s:10:"titleSpeed";s:3:"500";s:6:"effect";s:4:"fade";s:10:"navigation";s:5:"false";s:5:"links";s:4:"true";s:10:"hoverPause";s:4:"true";s:5:"theme";s:7:"default";s:9:"direction";s:10:"horizontal";s:7:"reverse";s:5:"false";s:14:"animationSpeed";s:3:"600";s:8:"prevText";s:1:"<";s:8:"nextText";s:1:">";s:6:"slices";s:2:"15";s:6:"center";s:4:"true";s:9:"smartCrop";s:4:"true";s:12:"carouselMode";s:4:"true";s:14:"carouselMargin";s:1:"5";s:6:"easing";s:6:"linear";s:8:"autoPlay";s:4:"true";s:11:"thumb_width";i:150;s:12:"thumb_height";i:100;s:9:"fullWidth";s:4:"true";s:10:"noConflict";s:4:"true";s:12:"smoothHeight";s:5:"false";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Homepage</title>
+		<link>http://mwanoz.fr/ep/</link>
+		<pubDate>Sun, 16 Mar 2014 00:43:21 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=587</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>587</wp:post_id>
+		<wp:post_date>2014-03-16 00:43:21</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 00:43:21</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>homepage</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[templates/tpl_homepage.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Blog</title>
+		<link>http://mwanoz.fr/ep/blog/</link>
+		<pubDate>Sun, 16 Mar 2014 00:43:42 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=589</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>589</wp:post_id>
+		<wp:post_date>2014-03-16 00:43:42</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 00:43:42</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>blog</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[templates/tpl_blog.php]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[693]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Playlists</title>
+		<link>http://mwanoz.fr/ep/playlists/</link>
+		<pubDate>Sun, 16 Mar 2014 00:50:50 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=609</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>609</wp:post_id>
+		<wp:post_date>2014-03-16 00:50:50</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 00:50:50</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>playlists</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[templates/tpl_playlists.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Podcasts</title>
+		<link>http://mwanoz.fr/ep/podcasts/</link>
+		<pubDate>Sun, 16 Mar 2014 00:50:59 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=611</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>611</wp:post_id>
+		<wp:post_date>2014-03-16 00:50:59</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 00:50:59</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>podcasts</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/interviews/]]></wp:meta_value>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[templates/tpl_podcasts.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3144,6 +3291,404 @@ Si tu veux en savoir plus et y jeter une oreille, voici quelques liens qui feron
 		<wp:postmeta>
 			<wp:meta_key>audio_buttons</wp:meta_key>
 			<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>On aime</title>
+		<link>http://mwanoz.fr/ep/on-aime/</link>
+		<pubDate>Sun, 16 Mar 2014 19:14:21 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=664</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p style="line-height: 1.3;">Eddy Mitchell écoutait le disc jockey sur la route de Memphis, nous on a carrément rencontré des artistes en chair et en os sur la route du Web.<br>
+Dans cette section tu trouveras des gens qu'on aime vraiment, et comme on les aime on voudrait pas que tu passes à coté. Et puis qui sait dans 1 an, 1 mois, 1h ça sera peut être toi qui ira les voir en live (en tout cas on te le souhaite).</p>
+
+&nbsp;
+
+<p style="text-align: justify; font-size: 13px;"><a href="https://soundcloud.com/thylacinew" target="_blank"><img class="alignleft size-full wp-image-252" alt="Thylacine" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Thylacine1.png" width="260" height="142" /></a><strong>THYLACINE </strong><em>(Electronica /Trip hop/ Minimale)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/thylacinew"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/5If5Tdg66Q5X3L57G7A6Pn"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
+Thylacine c'est un artiste d'Angers. Comme ça ça ne paie pas de mine, et on peut comprendre que les plus parisiens d'entre vous se laisseront guider par leur instinct anti-provinciaux, mais dieu sait que vous feriez une énorme bêtise en passant à côté de William Thylacine.  Le thylacine, marsupial de son état, c'est surtout un putain de mec qui te fera voyager, rêver et espérer un avenir musical plus radieux pour une France qui respire la sueur et les parfums d'été. Si on a qu'un seul conseil c'est d'aller écouter, sans vraiment poser de questions.</p>
+
+&nbsp;
+
+<p style="text-align: justify; font-size: 13px;"><a href="http://www.rogermolls.com/" target="_blank"><img class="alignleft size-full wp-image-254" alt="Roger Molls" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Roger-Molls.png" width="260" height="142" /></a> <strong>ROGER MOLLS </strong><em>(Beatmaker)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/roger-molls"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/2e8lWdeklPbzo7zTn6Mka1"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
+"Salut, moi c'est Roger Molls (prononcez le Roger et pas Roj'eur, ça pourrait choquer vos amis) et je fais de la Musique depuis un moment, franchement c'est pas un gage de qualité pour un paquet d'artistes mais pour moi c'est carrément le cas." Voila rapidement comment ce beatmaker du Nord aurait pu se présenter si jamais vous le croisez sur un de vos réseaux. Nous on est fan de Roger comme on peut être fan du vin rouge/fromage; c'est pas une folie douce mais c'est carrément le genre d'artistes que vous pouvez écouter sur un coup de tête et finir par répéter sa discographie 4fois de suite.
+Nan franchement, faites pas les fines bouches et reprenez un peu de Molls.</p>
+
+&nbsp;
+
+<p style="text-align: justify; font-size: 13px;"><a href="https://soundcloud.com/jezz-at-home" target="_blank"><img class="alignleft size-full wp-image-255" alt="Jezz at Home" src="http://www.ecoute-prolongee.com/wp-content/uploads/2014/03/Jezz-at-Home.png" width="260" height="142" /></a> <strong>JEZZ AT HOME </strong><em>(Funk, instrumental, jazz, et souvent ça groove)</em><span style="float: right;"><a target="_blank" href="https://soundcloud.com/jezz-at-home"><button type="button" class="btn medium abestos ep-sndc"><span><i class="icon-soundcloud"></i></span></button></a><a target="_blank" href="http://open.spotify.com/artist/2hnyGOBlaix0B8LGLy5WLy"><button type="button" class="btn medium abestos ep-sptf"><span><i class="icon-spotify"></i></span></button></a></span>
+AH. Nan franchement eux c'est nos potes qu'on aime, nos petits chouchous Lyonnais. On a pas trop l'habitude de suivre un groupe d'aussi près, mais eux c'est le sax' qui sex et le piano qui transpire à chaque fois.
+Duo composé de Laurent et Tom, c'est presque aussi cosi d'écouter leur album dans ton salon que de swinguer à l'ancienne sur les parquets des piano-bars sexy. Si tu voudrais que Air et Miles Davis bossent ensemble : Jezz at Home.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>664</wp:post_id>
+		<wp:post_date>2014-03-16 19:14:21</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 19:14:21</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>on-aime</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Qui sommes-nous ?</title>
+		<link>http://mwanoz.fr/ep/qui-sommes-nous/</link>
+		<pubDate>Sun, 16 Mar 2014 19:14:50 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=666</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h1>ÉcouteProlongée, poseur de son dans les voitures tunés</h1>
+<p style="padding-left: 60px;"><strong>Écoute Prolongée</strong> c’est une asso de potes qui un jour se sont dit “Hey mec elle est où ma caisse ?”. Mais aussi que ça serait pas mal de rajouter un blog de recommandation de Musique sur les internets.</p>
+<p style="padding-left: 60px;">Éduqués avec les reconnus <strong>LeTourneDisque</strong> et <strong>DélicieuseMusique</strong>, on essaye de proposer aux internautes une vision plus déconne de la Musique parce que dans ces moments là on apprécie bien une bonne suite d’accords.</p>
+<p style="padding-left: 60px;">Niveau terrain on se plait a filmer et rajouter un peu d’image dans toutes ces sonorités.
+<em>Ps : On aime la techno autant que le Jazz.</em></p>
+Si tu aimes notre style et que tu t’épiles  alors tu peux surement passer sur ces blogs là, c’est nos copains :
+
+[one_fourth]<a title="Génération Spontanée" href="http://www.generationspontanee.fr" target="_blank"><img class="size-full wp-image-311 alignleft" style="margin-right: 30px;" alt="G-spon" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/G-spon.png" width="238" height="126" /></a>[/one_fourth]
+[one_fourth]<a title="Radioelectrolyon" href="http://www.radioelectrolyon.fr/" target="_blank"><img class="size-full wp-image-313 alignleft" style="margin-right: 30px;" alt="ReL" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/ReL.png" width="164" height="126" /></a>[/one_fourth]
+[one_fourth]<a title="Roulez Jeunesse" href="http://www.roulez-jeunesse.com/" target="_blank"><img class="size-medium wp-image-314 alignleft" style="margin-right: 30px;" alt="roulezjeunesse" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/roulezjeunesse.png" width="102" height="126" /></a>[/one_fourth]
+[one_fourth_last]<a title="Le Gros Tas de Zik" href="http://www.legrostasdezik.com/" target="_blank"><img class="size-full wp-image-312 alignleft" alt="grostaszik" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/grostaszik.png" width="250" height="126" /></a>[/one_fourth_last]
+
+[one_fourth]<a href="http://anotherwhiskyformisterbukowski.com/"><img class="size-full wp-image-379 alignleft" alt="another" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/another.png" width="79" height="126" /></a>[/one_fourth]
+[one_fourth]<a href="http://www.letournedisque.com"><img class="size-medium wp-image-380 alignleft" alt="tourned" src="http://www.ecoute-prolongee.com/wp-content/uploads/2013/12/tourned.png" width="224" height="126" /></a>[/one_fourth]
+[one_fourth][/one_fourth]
+[one_fourth_last][/one_fourth_last]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>666</wp:post_id>
+		<wp:post_date>2014-03-16 19:14:50</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 19:14:50</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>qui-sommes-nous</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title></title>
+		<link>http://mwanoz.fr/ep/668/</link>
+		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=668</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>668</wp:post_id>
+		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>668</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[670]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[666]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title></title>
+		<link>http://mwanoz.fr/ep/669/</link>
+		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=669</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>669</wp:post_id>
+		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>669</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[670]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[664]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>À propos</title>
+		<link>http://mwanoz.fr/ep/a-propos/</link>
+		<pubDate>Sun, 16 Mar 2014 19:15:30 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=670</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>670</wp:post_id>
+		<wp:post_date>2014-03-16 19:15:30</wp:post_date>
+		<wp:post_date_gmt>2014-03-16 19:15:30</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>a-propos</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[670]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Interviews</title>
+		<link>http://mwanoz.fr/ep/interviews/</link>
+		<pubDate>Mon, 17 Mar 2014 15:57:22 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=693</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>693</wp:post_id>
+		<wp:post_date>2014-03-17 15:57:22</wp:post_date>
+		<wp:post_date_gmt>2014-03-17 15:57:22</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>interviews</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[693]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://mwanoz.fr/ep/interviews/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Agenda</title>
+		<link>http://mwanoz.fr/ep/agenda/</link>
+		<pubDate>Wed, 19 Mar 2014 00:32:31 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?page_id=725</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>725</wp:post_id>
+		<wp:post_date>2014-03-19 00:32:31</wp:post_date>
+		<wp:post_date_gmt>2014-03-19 00:32:31</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>agenda</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[templates/tpl_agenda.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title></title>
+		<link>http://mwanoz.fr/ep/727/</link>
+		<pubDate>Wed, 19 Mar 2014 02:17:21 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<guid isPermaLink="false">http://mwanoz.fr/ep/?p=727</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>727</wp:post_id>
+		<wp:post_date>2014-03-19 02:17:21</wp:post_date>
+		<wp:post_date_gmt>2014-03-19 02:17:21</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>727</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[725]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
