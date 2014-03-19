@@ -5,8 +5,8 @@ ecoute-prolongee-v2
 
 ### Todo
 
-* [ ] Ajouter le player mp3
-* [ ] Build les shortcodes/metabox/post type pour le player mp3
+* [x] Ajouter le player mp3
+* [x] Build les shortcodes/metabox/post type pour le player mp3 **No need**
 * [ ] Ajouter la partie responsive/mobile prout
 * [ ] Refaire un check complet des fichiers
 * [ ] Minify les .js (c'est quand même cool)

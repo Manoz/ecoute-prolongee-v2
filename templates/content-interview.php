@@ -8,11 +8,7 @@
 if ( !defined( 'ABSPATH' )) die('Love the blank page?'); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
     <header class="ep-post-header">
-    <?php if ( has_post_thumbnail() ) { ?>
-        <div class="ep-thumbnail">
-            <?php the_post_thumbnail(); ?>
-        </div>
-    <?php } ?>
+
 
         <h2 class="ep-post-title">
             <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>

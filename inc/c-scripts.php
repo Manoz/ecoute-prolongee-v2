@@ -41,7 +41,7 @@ function ep_scripts() {
     wp_register_script( 'ep-history',       THEME_JS . '/history.js', array( 'jquery' ), '1.0.0', true );
     wp_register_script( 'ep-amplify',       THEME_JS . '/amplify.min.js', array( 'jquery' ), '1.0.0', true );
     wp_register_script( 'ep-soundmanager',  THEME_JS . '/soundmanager.min.js', array( 'jquery' ), '1.0.0', true );
-    wp_register_script( 'ep-audioplayer',   THEME_JS . '/audioplayer.min.js', array( 'jquery' ), '1.0.0', true );
+    wp_register_script( 'ep-audioplayer',   THEME_JS . '/audioplayer.js', array( 'jquery' ), '1.0.0', true );
 
     wp_enqueue_script( 'ep-scripts' );
     wp_enqueue_script( 'ep-history' );

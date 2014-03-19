@@ -278,7 +278,9 @@
 
 /* Playlist Stuff */
 
-#fap-playlist-toggle, #fap-playlist-shuffle {
+#fap-playlist-toggle,
+#fap-playlist-shuffle,
+#fap-clear-toggle {
     background-repeat: no-repeat;
     display: block;
     width: 25px;
@@ -289,6 +291,11 @@
 
 #fap-playlist-toggle {
     background-image: url(../images/fwap/playlist.png);
+    background-position: 7px 7px;
+}
+
+#fap-clear-toggle {
+    background-image: url(../images/fwap/clear.png);
     background-position: 7px 7px;
 }
 
